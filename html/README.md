@@ -34,7 +34,7 @@
   * [Doctypes and markup styles \| W3C](https://www.w3.org/wiki/Doctypes_and_markup_styles)
   * [Quirks Mode and Standards Mode \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode)
   * [Obsolete and deprecated elements \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Obsolete_and_deprecated_elements)
-  * [Dialog Element | Can I Use](https://caniuse.com/#feat=dialog)
+  * [Dialog Element \| Can I Use](https://caniuse.com/#feat=dialog)
 
 ### HTML5
 ```html
@@ -344,9 +344,10 @@ Output:
 <!-- TODO convert img2md -->
 ![widgets](form/form_elements.png)
 
+## Web Resourses
+
 <!-- 
   TODO
   Robots.txt: [robots](http://www.robotstxt.org/robotstxt.html) e [robots do g1.com](http://g1.globo.com/robots.txt)
  -->
 
- ## Web Resourses
