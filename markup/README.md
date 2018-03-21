@@ -1,6 +1,6 @@
 # Markup Language
 
-## Problema
+## Problem
 
 Styling ([`text.txt`](text.txt)):
 ```txt
