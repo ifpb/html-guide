@@ -6,7 +6,7 @@
   * [XML](#xml)
   * [HTML](#html)
   * [Comparing](#comparing)
-* [Others Markup Language](#others-markup-language)
+* [Markups](#markups)
   * [SVG Image ](#svg-image )
   * [XUL Interface ](#xul-interface )
   * [MathML Expression ](#mathml-expression )
@@ -87,7 +87,7 @@ Reference: [Sintax](https://www.w3.org/TR/html/)
 | <i>itálico</i> | \* | \textit | \<italico> | \<i> |
 | <b>negrito</b> | \** | \textbf | \<negrito> | \<b> |
 
-## Others Markup Language
+## Markups
 
 ### SVG Image 
 
