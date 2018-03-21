@@ -2,15 +2,19 @@
 
 ## Problema
 
-Original Content ([`text.txt`](text.txt)):
+Styling ([`text.txt`](text.txt)):
 ```txt
 Lorem ipsum dolor
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ```
 
+Output:
+<h1>Lorem ipsum dolor</h1>
+<p><i>Lorem</i> ipsum <b>dolor</b> sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
 ### Markdown
 
-Referência: [Sintaxe](https://daringfireball.net/projects/markdown/syntax) e [Resumo](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+Reference: [Sintax](https://daringfireball.net/projects/markdown/syntax), [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) e [vscode - markdown preview](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview)
 
 [`text.md`](text.md):
 ```md
@@ -21,7 +25,7 @@ Referência: [Sintaxe](https://daringfireball.net/projects/markdown/syntax) e [R
 
 ### LaTeX
 
-Referência: [Sintaxe](https://daringfireball.net/projects/markdown/syntax) e [Resumo](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+Reference: [Sintax](https://daringfireball.net/projects/markdown/syntax), [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) e [Editor](https://www.overleaf.com/9385056rmtvknmdwshj)
 
 [`text.tex`](text.tex):
 ```tex
@@ -40,7 +44,7 @@ Referência: [Sintaxe](https://daringfireball.net/projects/markdown/syntax) e [R
 
 ### XML
 
-Referência: 
+Reference: [Sintax](https://www.w3.org/TR/xml/)
 
 [`text.xml`](text.xml):
 ```xml
@@ -52,7 +56,7 @@ Referência:
 
 ### HTML
 
-Referência: 
+Reference: [Sintax](https://www.w3.org/TR/html/)
 
 [`text.html`](text.html):
 ```html
@@ -60,10 +64,22 @@ Referência:
 <p><i>Lorem</i> ipsum <b>dolor</b> sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 ```
 
+### Comparing
+
+| estrutura | .md | .tex | .xml | .html |
+|-|-|-|-|-|
+| <h1>título</h1> | \# |  \section* | \<titulo> | \<h1> |
+| parágrafo | quebra de linha | quebra de linha | \<titulo> | \<h1> |
+| <i>itálico</i> | \* | \textit | \<italico> | \<i> |
+| <b>negrito</b> | \** | \textbf | \<negrito> | \<b> |
 
 ## Others Markup Language
 
-### SVG Image [`imagem.svg`](imagem.svg):
+### SVG Image 
+
+Reference: [Syntax](https://www.w3.org/Graphics/SVG/)
+
+[`imagem.svg`](imagem.svg):
 ```xml
 <svg version="1.1"
      baseProfile="full"
@@ -86,7 +102,11 @@ Output:
   <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text>
 </svg>
 
-### XUL Interface [`interface.xul`](interface.xul):
+### XUL Interface 
+
+Reference: [Syntax](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL)
+
+[`interface.xul`](interface.xul):
 ```xml
 <?xml version="1.0"?>
 <?xml-stylesheet href="chrome://global/skin/"
@@ -102,7 +122,15 @@ there.is.only.xul">
 </window>
 ```
 
-### MathML Expression [`mathml.xml`](mathml.xml):
+Outuput:
+
+![interface](interface.png)
+
+### MathML Expression 
+
+Reference: [Syntax](https://www.w3.org/TR/MathML/)
+
+[`mathml.xml`](mathml.xml):
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
   <!DOCTYPE math PUBLIC
@@ -126,7 +154,15 @@ there.is.only.xul">
   </math>
 ```
 
-### KML Point [`point.kml`](point.kml):
+Outuput:
+
+![mathml](mathml.png)
+
+### KML Point 
+
+Reference: [Syntax](http://www.opengeospatial.org/standards/kml/)
+
+[`point.kml`](point.kml):
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
@@ -141,3 +177,7 @@ there.is.only.xul">
 </Document>
 </kml>
 ```
+
+Outuput:
+
+![point](point.png)
