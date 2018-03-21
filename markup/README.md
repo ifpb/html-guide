@@ -1,5 +1,17 @@
 # Markup Language
 
+* [Problem](#problem)
+  * [Markdown](#markdown)
+  * [LaTeX](#latex)
+  * [XML](#xml)
+  * [HTML](#html)
+  * [Comparing](#comparing)
+* [Others Markup Language](#others-markup-language)
+  * [SVG Image ](#svg-image )
+  * [XUL Interface ](#xul-interface )
+  * [MathML Expression ](#mathml-expression )
+  * [KML Point ](#kml-point )
+
 ## Problem
 
 Styling ([`text.txt`](text.txt)):
@@ -16,7 +28,7 @@ Output:
 
 ### Markdown
 
-Reference: [Sintax](https://daringfireball.net/projects/markdown/syntax), [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) e [vscode - markdown preview](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview)
+Reference: [Sintax](https://daringfireball.net/projects/markdown/syntax), [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) e [Markdown Preview (vscode)](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview)
 
 [`text.md`](text.md):
 ```md
@@ -124,7 +136,7 @@ there.is.only.xul">
 </window>
 ```
 
-Outuput:
+Output:
 
 ![interface](interface.png)
 
@@ -156,7 +168,7 @@ Reference: [Syntax](https://www.w3.org/TR/MathML/)
   </math>
 ```
 
-Outuput:
+Output:
 
 ![mathml](mathml.png)
 
@@ -180,6 +192,6 @@ Reference: [Syntax](http://www.opengeospatial.org/standards/kml/)
 </kml>
 ```
 
-Outuput:
+Output:
 
 ![point](point.png)
