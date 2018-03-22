@@ -839,98 +839,62 @@ Output:
 
 ### Components
 
-<div style="display: flex; flex-flow: row wrap; align-items: center;">
-  <div style="width: 30%;">
-    <input type="text" name="cpf">
-  </div>
-  <div style="width: 70%;">
+<input type="text" name="cpf">
 
 ```html
   <input type="text" name="cpf">
 ```
 
-  </div>
-  <div style="width: 30%;">
-    <label for="cpf">CPF:</label>
-    <input type="text" name="cpf" id="cpf">
-  </div>
-  <div style="width: 70%;">
+<label for="cpf">CPF:</label>
+<input type="text" name="cpf" id="cpf">
 
 ```html
 <label for="cpf">CPF:</label>
 <input type="text" name="cpf" id="cpf">
 ```    
 
-  </div>
-  <div style="width: 30%;">
-    <input type="text" name="cpf" required>*
-  </div>
-  <div style="width: 70%;">
+<input type="text" name="cpf" required>*
 
 ```html
 <input type="text" name="cpf" required>*
 ```
 
-  </div>
-  <div style="width: 30%;">
-    <input type="text" name="cpf" placeholder="000.000.000-00">
-  </div>
-  <div style="width: 70%;">
+<input type="text" name="cpf" placeholder="000.000.000-00">
 
 ```html      
 <input type="text" name="cpf" placeholder="000.000.000-00">
 ```
 
-  </div>
-  <div style="width: 30%;">
-    <input type="text" name="cpf" value="000.000.000-00">
-  </div>
-  <div style="width: 70%;">
+<input type="text" name="cpf" value="000.000.000-00">
   
 ```html
 <input type="text" name="cpf" value="000.000.000-00">
 ```
   
-  </div>
-  <div style="width: 30%;">
-    <input type="password" name="password">
-  </div>
-  <div style="width: 70%;">
+<input type="password" name="password">
 
 ```html
 <input type="password" name="password">
 ```
 
-  </div>
-  <div style="width: 30%;">
-    <input type="radio" name="">
-  </div>
-  <div style="width: 70%;">
+<input type="radio" name="">
 
 ```html
 <input type="radio" name="field">
 ```
 
-  </div>
-  <div style="width: 30%;">
-    <input type="radio" name="sexo" value="masculino" id="masculino">
-    <label for="masculino">masculino</label>
-  </div>
-  <div style="width: 70%;">
+<input type="radio" name="sexo" value="masculino" id="masculino">
+<label for="masculino">masculino</label>
 
 ```html
 <input type="radio" name="sexo" value="masculino" id="masculino">
 <label for="masculino">masculino</label>
 ```
 
-  </div>
-  <div style="width: 30%;">
-    <input type="radio" name="sexo" value="masculino" id="masculino" checked>
-    <label for="masculino">masculino</label>
-    <input type="radio" name="sexo" value="feminino" id="feminino">
-    <label for="feminino">feminino</label>
-  </div>
-  <div style="width: 70%;">
+<input type="radio" name="sexo" value="masculino" id="masculino" checked>
+<label for="masculino">masculino</label>
+<input type="radio" name="sexo" value="feminino" id="feminino">
+<label for="feminino">feminino</label>
   
 ```html
 <input type="radio" name="sexo" value="masculino" id="masculino" checked>
@@ -939,45 +903,29 @@ Output:
 <label for="feminino">feminino</label>
 ```
   
-  </div>
-  <div style="width: 30%;">
-    <input type="checkbox" name="">
-  </div>
-  <div style="width: 70%;">
+<input type="checkbox" name="">
   
 ```html
 <input type="checkbox" name="">
 ```
   
-  </div>
-  <div style="width: 30%;">
-    <input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
-    <label for="condicoes">Você concorda com os termos...</label>
-  </div>
-  <div style="width: 70%;">
+<input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
+<label for="condicoes">Você concorda com os termos...</label>
   
 ```html
 <input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
 <label for="condicoes">Você concorda com os termos...</label>
 ```
   
-  </div>
-  <div style="width: 30%;">
-    <input type="range" name="number">
-    <input type="text" name="number-value" value="20" size="2">
-  </div>
-  <div style="width: 70%;">
+<input type="range" name="number">
+<input type="text" name="number-value" value="20" size="2">
   
 ```html
 <input type="range" name="number">
 <input type="text" name="number-value" value="20" size="2">
 ```
   
-  </div>
-  <div style="width: 30%;">
-    <button>Create</button>
-  </div>
-  <div style="width: 70%;">
+<button>Create</button>
   
 ```html
 <input type="button" name="submit" value="Create">
@@ -985,25 +933,17 @@ Output:
 <button>Create</button>
 ```
   
-  </div>
-  <div style="width: 30%;">
-    <input type="date" name="date">
-  </div>
-  <div style="width: 70%;">
+<input type="date" name="date">
   
 ```html
 <input type="date" name="date">
 ```
 
-  </div>
-  <div style="width: 30%;">
-    <select name="place">
-      <option value=""></option>
-      <option value="PB">Paraíba</option>
-      <option value="PE">Pernambuco</option>
-    </select>
-  </div>
-  <div style="width: 70%;">
+<select name="place">
+  <option value=""></option>
+  <option value="PB">Paraíba</option>
+  <option value="PE">Pernambuco</option>
+</select>
   
 ```html
 <select name="place">
@@ -1013,18 +953,12 @@ Output:
 </select>
 ```
   
-  </div>
-  <div style="width: 30%;">
-    <textarea name="message">digite uma mensagem</textarea>
-  </div>
-  <div style="width: 70%;">
+<textarea name="message">digite uma mensagem</textarea>
 
 ```html
 <textarea name="message">digite uma mensagem</textarea>
 ```
 
-  </div>
-</div>
 
 ### Example
 
