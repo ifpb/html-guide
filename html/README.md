@@ -863,12 +863,12 @@ Output:
 #### required attribute
 
 ```html
-<input type="text" name="cpf" required>\*
+<input type="text" name="cpf" required>*
 ```
 
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <form>
-    <input type="text" name="cpf" required>*
+    <input type="text" name="cpf" required>\*
   </form>
 </div>
 
