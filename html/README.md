@@ -845,9 +845,9 @@ Output:
   </div>
   <div style="width: 70%;">
 
-  ```html
-    <input type="text" name="cpf">
-  ```
+```html
+  <input type="text" name="cpf">
+```
 
   </div>
   <div style="width: 30%;">
@@ -856,10 +856,10 @@ Output:
   </div>
   <div style="width: 70%;">
 
-  ```html
-  <label for="cpf">CPF:</label>
-  <input type="text" name="cpf" id="cpf">
-  ```    
+```html
+<label for="cpf">CPF:</label>
+<input type="text" name="cpf" id="cpf">
+```    
 
   </div>
   <div style="width: 30%;">
@@ -867,9 +867,9 @@ Output:
   </div>
   <div style="width: 70%;">
 
-  ```html
-  <input type="text" name="cpf" required>*
-  ```
+```html
+<input type="text" name="cpf" required>*
+```
 
   </div>
   <div style="width: 30%;">
@@ -877,9 +877,9 @@ Output:
   </div>
   <div style="width: 70%;">
 
-  ```html      
-  <input type="text" name="cpf" placeholder="000.000.000-00">
-  ```
+```html      
+<input type="text" name="cpf" placeholder="000.000.000-00">
+```
 
   </div>
   <div style="width: 30%;">
@@ -887,9 +887,9 @@ Output:
   </div>
   <div style="width: 70%;">
   
-  ```html
-  <input type="text" name="cpf" value="000.000.000-00">
-  ```
+```html
+<input type="text" name="cpf" value="000.000.000-00">
+```
   
   </div>
   <div style="width: 30%;">
@@ -897,18 +897,20 @@ Output:
   </div>
   <div style="width: 70%;">
 
-  ```html
-  <input type="password" name="password">
-  ```
+```html
+<input type="password" name="password">
+```
+
   </div>
   <div style="width: 30%;">
     <input type="radio" name="">
   </div>
   <div style="width: 70%;">
 
-  ```html
-  <input type="radio" name="field">
-  ```
+```html
+<input type="radio" name="field">
+```
+
   </div>
   <div style="width: 30%;">
     <input type="radio" name="sexo" value="masculino" id="masculino">
@@ -916,10 +918,10 @@ Output:
   </div>
   <div style="width: 70%;">
 
-  ```html
-  <input type="radio" name="sexo" value="masculino" id="masculino">
-  <label for="masculino">masculino</label>
-  ```
+```html
+<input type="radio" name="sexo" value="masculino" id="masculino">
+<label for="masculino">masculino</label>
+```
 
   </div>
   <div style="width: 30%;">
@@ -930,12 +932,12 @@ Output:
   </div>
   <div style="width: 70%;">
   
-  ```html
-  <input type="radio" name="sexo" value="masculino" id="masculino" checked>
-  <label for="masculino">masculino</label>
-  <input type="radio" name="sexo" value="feminino" id="feminino">
-  <label for="feminino">feminino</label>
-  ```
+```html
+<input type="radio" name="sexo" value="masculino" id="masculino" checked>
+<label for="masculino">masculino</label>
+<input type="radio" name="sexo" value="feminino" id="feminino">
+<label for="feminino">feminino</label>
+```
   
   </div>
   <div style="width: 30%;">
@@ -943,9 +945,9 @@ Output:
   </div>
   <div style="width: 70%;">
   
-  ```html
-  <input type="checkbox" name="">
-  ```
+```html
+<input type="checkbox" name="">
+```
   
   </div>
   <div style="width: 30%;">
@@ -954,10 +956,10 @@ Output:
   </div>
   <div style="width: 70%;">
   
-  ```html
-  <input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
-  <label for="condicoes">Você concorda com os termos...</label>
-  ```
+```html
+<input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
+<label for="condicoes">Você concorda com os termos...</label>
+```
   
   </div>
   <div style="width: 30%;">
@@ -966,10 +968,10 @@ Output:
   </div>
   <div style="width: 70%;">
   
-  ```html
-  <input type="range" name="number">
-  <input type="text" name="number-value" value="20" size="2">
-  ```
+```html
+<input type="range" name="number">
+<input type="text" name="number-value" value="20" size="2">
+```
   
   </div>
   <div style="width: 30%;">
@@ -977,11 +979,11 @@ Output:
   </div>
   <div style="width: 70%;">
   
-  ```html
-  <input type="button" name="submit" value="Create">
-  <input type="submit" name="submit" value="Create">
-  <button>Create</button>
-  ```
+```html
+<input type="button" name="submit" value="Create">
+<input type="submit" name="submit" value="Create">
+<button>Create</button>
+```
   
   </div>
   <div style="width: 30%;">
@@ -989,9 +991,9 @@ Output:
   </div>
   <div style="width: 70%;">
   
-  ```html
-  <input type="date" name="date">
-  ```
+```html
+<input type="date" name="date">
+```
 
   </div>
   <div style="width: 30%;">
@@ -1003,13 +1005,13 @@ Output:
   </div>
   <div style="width: 70%;">
   
-  ```html
-  <select name="place">
-    <option value=""></option>
-    <option value="PB">Paraíba</option>
-    <option value="PE">Pernambuco</option>
-  </select>
-  ```
+```html
+<select name="place">
+  <option value=""></option>
+  <option value="PB">Paraíba</option>
+  <option value="PE">Pernambuco</option>
+</select>
+```
   
   </div>
   <div style="width: 30%;">
@@ -1017,9 +1019,9 @@ Output:
   </div>
   <div style="width: 70%;">
 
-  ```html
-  <textarea name="message">digite uma mensagem</textarea>
-  ```
+```html
+<textarea name="message">digite uma mensagem</textarea>
+```
 
   </div>
 </div>
@@ -1070,7 +1072,7 @@ Output:
 
 Output:
 <main>
-  <h1>Contato</h1>
+  <b style="font-size: 2em;">Contato</b>
   <form action="sucesso.html" method="post">
     <fieldset>
       <div>
@@ -1118,13 +1120,13 @@ Output:
 Reference: https://staticmapmaker.com/google/
 
 ```
-https://maps.googleapis.com/maps/api/staticmap?center=ifpb+av+primeiro+de+maio&zoom=16&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true
+<img width="600" src="https://maps.googleapis.com/maps/api/staticmap?center=ifpb+av+primeiro+de+maio&zoom=16&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true" alt="Google Map of ifpb av primeiro de maio">
 ```
 
 
 Output:
 
-<img width="600" src="https://maps.googleapis.com/maps/api/staticmap?center=ifpb+av+primeiro+de+maio&zoom=16&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true" alt="Google Map of ifpb av primeiro de maio">
+![IFPB](assets/ifpbstaticmap.png)
 
 #### Dynamic Map
 
