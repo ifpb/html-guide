@@ -853,7 +853,7 @@ Output:
 ```html
 <label for="cpf">CPF:</label>
 <input type="text" name="cpf" id="cpf">
-```    
+```
 
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <label for="cpf">CPF:</label>
@@ -866,9 +866,11 @@ Output:
 <input type="text" name="cpf" required>*
 ```
 
-<form>
-  <input type="text" name="cpf" required>*
-<form>
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  <form>
+    <input type="text" name="cpf" required>*
+  <form>
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
 
 #### placeholder attribute
 
@@ -876,15 +878,19 @@ Output:
 <input type="text" name="cpf" placeholder="000.000.000-00">
 ```
 
-<input type="text" name="cpf" placeholder="000.000.000-00">
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  <input type="text" name="cpf" placeholder="000.000.000-00">
+</div>
 
 #### value attribute
   
 ```html
 <input type="text" name="cpf" value="000.000.000-00">
 ```
-  
-<input type="text" name="cpf" value="000.000.000-00">
+
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  <input type="text" name="cpf" value="000.000.000-00">
+</div>
 
 #### password field
 
@@ -892,7 +898,9 @@ Output:
 <input type="password" name="password">
 ```
 
-<input type="password" name="password">
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  <input type="password" name="password">
+</div>
 
 #### radio button field
 
@@ -901,8 +909,10 @@ Output:
 <label for="masculino">masculino</label>
 ```
 
-<input type="radio" name="sexo" value="masculino" id="masculino">
-<label for="masculino">masculino</label>
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  <input type="radio" name="sexo" value="masculino" id="masculino">
+  <label for="masculino">masculino</label>
+</div>
 
 #### radio group
   
@@ -913,10 +923,12 @@ Output:
 <label for="feminino">feminino</label>
 ```
 
-<input type="radio" name="sexo" value="masculino" id="masculino" checked>
-<label for="masculino">masculino</label>
-<input type="radio" name="sexo" value="feminino" id="feminino">
-<label for="feminino">feminino</label>
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  <input type="radio" name="sexo" value="masculino" id="masculino" checked>
+  <label for="masculino">masculino</label>
+  <input type="radio" name="sexo" value="feminino" id="feminino">
+  <label for="feminino">feminino</label>
+</div>
 
 #### checkbox field
     
@@ -925,8 +937,10 @@ Output:
 <label for="condicoes">Você concorda com os termos...</label>
 ```
   
-<input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
-<label for="condicoes">Você concorda com os termos...</label>
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  <input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
+  <label for="condicoes">Você concorda com os termos...</label>
+</div>
 
 #### range field
   
@@ -935,8 +949,10 @@ Output:
 <input type="text" name="number-value" value="20" size="2">
 ```
 
-<input type="range" name="number">
-<input type="text" name="number-value" value="20" size="2">
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  <input type="range" name="number">
+  <input type="text" name="number-value" value="20" size="2">
+</div>
 
 #### button field
   
@@ -946,7 +962,9 @@ Output:
 <button>Create</button>
 ```
 
-<button>Create</button>
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  <button>Create</button>
+</div>
 
 #### date field  
   
@@ -954,7 +972,9 @@ Output:
 <input type="date" name="date">
 ```
 
-<input type="date" name="date">
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  <input type="date" name="date">
+</div>
 
 #### combobox field
   
@@ -966,11 +986,13 @@ Output:
 </select>
 ```
 
-<select name="place">
-  <option value=""></option>
-  <option value="PB">Paraíba</option>
-  <option value="PE">Pernambuco</option>
-</select>
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  <select name="place">
+    <option value=""></option>
+    <option value="PB">Paraíba</option>
+    <option value="PE">Pernambuco</option>
+  </select>
+</div>
 
 #### multi-line text field
 
@@ -978,7 +1000,9 @@ Output:
 <textarea name="message" rows="3" cols="60">digite uma mensagem</textarea>
 ```
 
-<textarea name="message" rows="3" cols="60">digite uma mensagem</textarea>
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  <textarea name="message" rows="3" cols="60">digite uma mensagem</textarea>
+</div>
 
 ### Example
 
