@@ -632,13 +632,13 @@ ftp://ftp.gnu.org/pub/
 ### Raster vs Vector
 
 #### PNG (Raster)
-![logo ifpb](assets/ifpb-logo.png)
+<img src="assets/ifpb-logo.png" alt="logo ifpb" width="100px">
 
 **20x**
 <div style="width: 200px; height: 200px; background-image: url('assets/ifpb-logo.png'); background-size: 2000px;"></div>
 
 #### SVG (Vector)
-![logo ifpb](assets/ifpb-logo.svg)
+<img src="assets/ifpb-logo.svg" alt="logo ifpb" width="100px">
 
 **20x**
 <div style="width: 200px; height: 200px; background-image: url('assets/ifpb-logo.svg'); background-size: 2000px;"></div>
@@ -675,6 +675,144 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAA3CAYAAABO8hkCAAAAAXNSR0IArs
   - `<table>`, `<thead>`, `<tbody>`, `<tfoot>`, `<tr>`, `<th>`, `<td>`
 - Attributes: 
   - `border`, `colspan`, `rowspan`
+
+#### `<table>`, `<tr>`, `<th>`, `<td>`
+```html
+<table>
+  <tr>
+    <th>Language</th>
+    <th>Creator</th>
+  </tr>
+  <tr>
+    <td>Python</td>
+    <td>Guido van Rossum</td>
+  </tr>
+  <tr>
+    <td>Javascript</td>
+    <td>Brendan Eich</td>
+  </tr>
+</table>
+```
+
+Output:
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0;">
+  <table>
+    <tr>
+      <th>Language</th>
+      <th>Creator</th>
+    </tr>
+    <tr>
+      <td>Python</td>
+      <td>Guido van Rossum</td>
+    </tr>
+    <tr>
+      <td>Javascript</td>
+      <td>Brendan Eich</td>
+    </tr>
+  </table>
+</div>
+
+#### `<thead>`, `<tbody>`, `<tfoot>`
+```html
+<table>
+  <thead>
+    <tr>
+      <th>Language</th>
+      <th>Creator</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Python</td>
+      <td>Guido van Rossum</td>
+    </tr>
+    <tr>
+      <td>Javascript</td>
+      <td>Brendan Eich</td>
+    </tr>
+  <tbody>
+</table>
+```
+
+Output:
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0;">
+  <table>
+    <thead>
+      <tr>
+        <th>Language</th>
+        <th>Creator</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Python</td>
+        <td>Guido van Rossum</td>
+      </tr>
+      <tr>
+        <td>Javascript</td>
+        <td>Brendan Eich</td>
+      </tr>
+    <tbody>
+  </table>
+</div>
+
+#### `<thead>`, `<tbody>`, `<tfoot>`
+```html
+<table>
+  <thead>
+    <tr>
+      <th>Language</th>
+      <th>Creator</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Python</td>
+      <td>Guido van Rossum</td>
+    </tr>
+    <tr>
+      <td>Javascript</td>
+      <td>Brendan Eich</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td rowspan="2">Dennis Ritchie</td>
+    </tr>
+    <tr>
+      <td>B</td>
+    </tr>
+  <tbody>
+</table>
+```
+
+Output:
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0;">
+  <table>
+    <thead>
+      <tr>
+        <th>Language</th>
+        <th>Creator</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Python</td>
+        <td>Guido van Rossum</td>
+      </tr>
+      <tr>
+        <td>Javascript</td>
+        <td>Brendan Eich</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td rowspan="2">Dennis Ritchie</td>
+      </tr>
+      <tr>
+        <td>B</td>
+      </tr>
+    <tbody>
+  </table>
+</div>
 
 ## Forms
 
