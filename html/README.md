@@ -632,15 +632,15 @@ ftp://ftp.gnu.org/pub/
 ### Raster vs Vector
 
 #### PNG (Raster)
-**50px**
-<img src="assets/ifpb-logo.png" alt="logo ifpb" width="50px">
+**150px**<br>
+<img src="assets/ifpb-logo.png" alt="logo ifpb" width="150px">
 
 **2000px**
 <div style="width: 200px; height: 200px; background-image: url('assets/ifpb-logo.png'); background-size: 2000px;"></div>
 
 #### SVG (Vector)
-**50px**
-<img src="assets/ifpb-logo.svg" alt="logo ifpb" width="50px">
+**150px**<br>
+<img src="assets/ifpb-logo.svg" alt="logo ifpb" width="150px">
 
 **2000px**
 <div style="width: 200px; height: 200px; background-image: url('assets/ifpb-logo.svg'); background-size: 2000px;"></div>
@@ -675,7 +675,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAA3CAYAAABO8hkCAAAAAXNSR0IArs
 </a>
 ```
 
-Output:
+Output:<br>
 [![logo ifpb](assets/ifpb.png)](http://ifpb.edu.br/)
 
 ## Table content
@@ -831,176 +831,394 @@ Output:
 ## Forms
 
 - Elements:
-  - `<form>`
-- Form HTML: [html5doctor](http://html5doctor.com/html5-forms-introduction-and-new-attributes/), [W3C](https://www.w3.org/TR/html5/forms.html)
+  - `<form>`, `<input>`, `<label>`
+- Attributes
+  - `action`, `method`
+- [HTML5 forms introduction and new attributes](http://html5doctor.com/html5-forms-introduction-and-new-attributes/)
+- [HTML Form \| W3C](https://www.w3.org/TR/html5/forms.html)
 
 ### Components
 
-<table>
-  <tr>
-    <td>
-      <input type="text" name="cpf">
-    </td>
-    <td>
+<div style="display: flex; flex-flow: row wrap; align-items: center;">
+  <div style="width: 30%;">
+    <input type="text" name="cpf">
+  </div>
+  <div style="width: 70%;">
 
-```html
-  <input type="text" name="cpf">
-```
+  ```html
+    <input type="text" name="cpf">
+  ```
 
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <label for="cpf">CPF:</label>
-      <input type="text" name="cpf" id="cpf">
-    </td>
-    <td>
+  </div>
+  <div style="width: 30%;">
+    <label for="cpf">CPF:</label>
+    <input type="text" name="cpf" id="cpf">
+  </div>
+  <div style="width: 70%;">
 
-```html
-<label for="cpf">CPF:</label>
-<input type="text" name="cpf" id="cpf">
-```    
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <input type="text" name="cpf" required>*
-    </td>
-    <td>
-      <input type="text" name="cpf" required>*
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <input type="text" name="cpf" placeholder="000.000.000-00">
-    </td>
-    <td>
-  </tr>
-  <tr>
-    <td>
-      <input type="text" name="cpf" value="000.000.000-00">
-    </td>
-    <td>
-      <input type="text" name="cpf" value="000.000.000-00">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <input type="password" name="password">
-    </td>
-    <td>
-      <input type="password" name="password">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <input type="radio" name="">
-    </td>
-    <td>
-      <input type="radio" name="">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <input type="radio" name="sexo" value="masculino" id="masculino">
-      <label for="masculino">masculino</label>
-    </td>
-    <td>
-      <input type="radio" name="sexo" value="masculino" id="masculino">
-      <label for="masculino">masculino</label>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <input type="radio" name="sexo" value="masculino" id="masculino" checked>
-      <label for="masculino">masculino</label>
-      <input type="radio" name="sexo" value="feminino" id="feminino">
-      <label for="feminino">feminino</label>
-    </td>
-    <td>
-      <input type="radio" name="sexo" value="masculino" id="masculino" checked>
-      <label for="masculino">masculino</label>
-      <input type="radio" name="sexo" value="feminino" id="feminino">
-      <label for="feminino">feminino</label>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <input type="checkbox" name="">
-    </td>
-    <td>
-      <input type="checkbox" name="">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
-      <label for="condicoes">Você concorda com os termos...</label>
-    </td>
-    <td>
-      <input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
-      <label for="condicoes">Você concorda com os termos...</label>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <input type="range" name="number">
-      <input type="text" name="number-value" value="20" size="2">
-    </td>
-    <td>
-      <input type="range" name="number">
-      <input type="text" name="number-value" value="20" size="2">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <button>Create</button>
-    </td>
-    <td>
-      <input type="button" name="submit" value="Create">
-      <input type="submit" name="submit" value="Create">
-      <button>Create</button>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <input type="date" name="date">
-    </td>
-    <td>
-      <input type="date" name="date">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <select name="place">
-        <option value=""></option>
-        <option value="PB">Paraíba</option>
-        <option value="PE">Pernambuco</option>
-      </select>
-    </td>
-    <td>
-      <select name="place">
-        <option value=""></option>
-        <option value="PB">Paraíba</option>
-        <option value="PE">Pernambuco</option>
-      </select>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <textarea name="message">digite uma mensagem</textarea>
-    </td>
-    <td>
-      <textarea name="message">digite uma mensagem</textarea>
-    </td>
-  </tr>
-</table>
+  ```html
+  <label for="cpf">CPF:</label>
+  <input type="text" name="cpf" id="cpf">
+  ```    
+
+  </div>
+  <div style="width: 30%;">
+    <input type="text" name="cpf" required>*
+  </div>
+  <div style="width: 70%;">
+
+  ```html
+  <input type="text" name="cpf" required>*
+  ```
+
+  </div>
+  <div style="width: 30%;">
+    <input type="text" name="cpf" placeholder="000.000.000-00">
+  </div>
+  <div style="width: 70%;">
+
+  ```html      
+  <input type="text" name="cpf" placeholder="000.000.000-00">
+  ```
+
+  </div>
+  <div style="width: 30%;">
+    <input type="text" name="cpf" value="000.000.000-00">
+  </div>
+  <div style="width: 70%;">
+  
+  ```html
+  <input type="text" name="cpf" value="000.000.000-00">
+  ```
+  
+  </div>
+  <div style="width: 30%;">
+    <input type="password" name="password">
+  </div>
+  <div style="width: 70%;">
+
+  ```html
+  <input type="password" name="password">
+  ```
+  </div>
+  <div style="width: 30%;">
+    <input type="radio" name="">
+  </div>
+  <div style="width: 70%;">
+
+  ```html
+  <input type="radio" name="field">
+  ```
+  </div>
+  <div style="width: 30%;">
+    <input type="radio" name="sexo" value="masculino" id="masculino">
+    <label for="masculino">masculino</label>
+  </div>
+  <div style="width: 70%;">
+
+  ```html
+  <input type="radio" name="sexo" value="masculino" id="masculino">
+  <label for="masculino">masculino</label>
+  ```
+
+  </div>
+  <div style="width: 30%;">
+    <input type="radio" name="sexo" value="masculino" id="masculino" checked>
+    <label for="masculino">masculino</label>
+    <input type="radio" name="sexo" value="feminino" id="feminino">
+    <label for="feminino">feminino</label>
+  </div>
+  <div style="width: 70%;">
+  
+  ```html
+  <input type="radio" name="sexo" value="masculino" id="masculino" checked>
+  <label for="masculino">masculino</label>
+  <input type="radio" name="sexo" value="feminino" id="feminino">
+  <label for="feminino">feminino</label>
+  ```
+  
+  </div>
+  <div style="width: 30%;">
+    <input type="checkbox" name="">
+  </div>
+  <div style="width: 70%;">
+  
+  ```html
+  <input type="checkbox" name="">
+  ```
+  
+  </div>
+  <div style="width: 30%;">
+    <input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
+    <label for="condicoes">Você concorda com os termos...</label>
+  </div>
+  <div style="width: 70%;">
+  
+  ```html
+  <input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
+  <label for="condicoes">Você concorda com os termos...</label>
+  ```
+  
+  </div>
+  <div style="width: 30%;">
+    <input type="range" name="number">
+    <input type="text" name="number-value" value="20" size="2">
+  </div>
+  <div style="width: 70%;">
+  
+  ```html
+  <input type="range" name="number">
+  <input type="text" name="number-value" value="20" size="2">
+  ```
+  
+  </div>
+  <div style="width: 30%;">
+    <button>Create</button>
+  </div>
+  <div style="width: 70%;">
+  
+  ```html
+  <input type="button" name="submit" value="Create">
+  <input type="submit" name="submit" value="Create">
+  <button>Create</button>
+  ```
+  
+  </div>
+  <div style="width: 30%;">
+    <input type="date" name="date">
+  </div>
+  <div style="width: 70%;">
+  
+  ```html
+  <input type="date" name="date">
+  ```
+
+  </div>
+  <div style="width: 30%;">
+    <select name="place">
+      <option value=""></option>
+      <option value="PB">Paraíba</option>
+      <option value="PE">Pernambuco</option>
+    </select>
+  </div>
+  <div style="width: 70%;">
+  
+  ```html
+  <select name="place">
+    <option value=""></option>
+    <option value="PB">Paraíba</option>
+    <option value="PE">Pernambuco</option>
+  </select>
+  ```
+  
+  </div>
+  <div style="width: 30%;">
+    <textarea name="message">digite uma mensagem</textarea>
+  </div>
+  <div style="width: 70%;">
+
+  ```html
+  <textarea name="message">digite uma mensagem</textarea>
+  ```
+
+  </div>
+</div>
 
 ### Example
 
+```html
+<main>
+  <h1>Contato</h1>
+  <form action="sucesso.html" method="post">
+    <fieldset>
+      <div>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required> *
+      </div>
+      <div>
+        Sexo
+        <input type="radio" name="sexo" id="masculino" value="m" checked>
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="sexo" id="feminino" value="f">
+        <label for="feminino">Feminino</label>
+      </div>
+      <div>
+        <label for="curso">Curso</label>
+        <select name="curso" id="curso">
+          <option value="" selected="">escolha um curso</option>
+          <option value="TSI">Sistemas para Internet</option>
+          <option value="RC">Redes de Computadores</option>
+        </select>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+      </div>
+      <div>
+        <label for="titulo">Título</label>
+        <input type="text" id="titulo" name="titulo">
+      </div>
+      <div>
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem"></textarea>
+      </div>
+    </fieldset>
+    <input type="submit" value="Enviar">
+  </form>
+</main>
+```
 
+Output:
+<main>
+  <h1>Contato</h1>
+  <form action="sucesso.html" method="post">
+    <fieldset>
+      <div>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required> *
+      </div>
+      <div>
+        Sexo
+        <input type="radio" name="sexo" id="masculino" value="m" checked>
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="sexo" id="feminino" value="f">
+        <label for="feminino">Feminino</label>
+      </div>
+      <div>
+        <label for="curso">Curso</label>
+        <select name="curso" id="curso">
+          <option value="" selected="">escolha um curso</option>
+          <option value="TSI">Sistemas para Internet</option>
+          <option value="RC">Redes de Computadores</option>
+        </select>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+      </div>
+      <div>
+        <label for="titulo">Título</label>
+        <input type="text" id="titulo" name="titulo">
+      </div>
+      <div>
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem"></textarea>
+      </div>
+    </fieldset>
+    <input type="submit" value="Enviar">
+  </form>
+</main>
 
 ## Web Resourses
+
+### Google Maps
+
+#### Static Map
+
+Reference: https://staticmapmaker.com/google/
+
+```
+https://maps.googleapis.com/maps/api/staticmap?center=ifpb+av+primeiro+de+maio&zoom=16&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true
+```
+
+
+Output:
+
+<img width="600" src="https://maps.googleapis.com/maps/api/staticmap?center=ifpb+av+primeiro+de+maio&zoom=16&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true" alt="Google Map of ifpb av primeiro de maio">
+
+#### Dynamic Map
+
+```html
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1979.4582707790096!2d-34.87499884397443!3d-7.135649594847398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace810852ae4f1%3A0xaf5445223401f2bb!2sIFPB!5e0!3m2!1sen!2sbr!4v1521749915692" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+```
+
+Output:
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1979.4582707790096!2d-34.87499884397443!3d-7.135649594847398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace810852ae4f1%3A0xaf5445223401f2bb!2sIFPB!5e0!3m2!1sen!2sbr!4v1521749915692" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+### Youtube
+
+- Reference:
+  - https://developers.google.com/youtube/subscribe/
+
+```html
+<iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/guvsH5OFizE" 
+  frameborder="0" 
+  allow="autoplay; encrypted-media" 
+  allowfullscreen>
+</iframe>
+```
+
+Output:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/guvsH5OFizE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+### Google Drive
+
+### Facebook
+
+Reference: [Facebook - Social Plugins](https://developers.facebook.com/docs/plugins)
+
+[Share Button](https://developers.facebook.com/docs/plugins/share-button)
+
+```html
+<iframe 
+  src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.ifpb.edu.br%2F&layout=button_count&size=small&mobile_iframe=true&width=118&height=20&appId" 
+  width="118" 
+  height="20" 
+  style="border:none;overflow:hidden" 
+  scrolling="no" 
+  frameborder="0" 
+  allowTransparency="true">
+</iframe>
+```
+
+Output:
+
+<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.ifpb.edu.br%2F&layout=button_count&size=small&mobile_iframe=true&width=118&height=20&appId" width="118" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+[Like Button](https://developers.facebook.com/docs/plugins/like-button)
+
+
+```html
+<iframe 
+  src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.ifpb.edu.br%2F&width=450&layout=standard&action=like&size=large&show_faces=true&share=true&height=80&appId" 
+  width="450" 
+  height="80" 
+  style="border:none;overflow:hidden" 
+  scrolling="no" 
+  frameborder="0" 
+  allowTransparency="true">
+</iframe>
+```
+
+Output:
+
+<iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.ifpb.edu.br%2F&width=450&layout=standard&action=like&size=large&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+[Facebook Pages](https://developers.facebook.com/docs/plugins/page-plugin)
+
+```html
+<iframe 
+  src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fifpb.si%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" 
+  width="340" 
+  height="500" 
+  style="border:none;overflow:hidden" 
+  scrolling="no" 
+  frameborder="0" 
+  allowTransparency="true">
+</iframe>
+```
+
+Output:
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fifpb.si%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+### Twitter
+
+- Reference
+  - https://dev.twitter.com/web/overview
 
 <!-- 
   TODO
