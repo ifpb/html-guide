@@ -868,7 +868,7 @@ Output:
 
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <form>
-    <input type="text" name="cpf" required>\*
+    <input type="text" name="cpf" required>*
   </form>
 </div>
 
@@ -1095,7 +1095,7 @@ Output:
 
 #### Static Map
 
-Reference: https://staticmapmaker.com/google/
+Reference: [Static Map Maker - Google Maps](https://staticmapmaker.com/google/)
 
 ```
 <img width="600" src="https://maps.googleapis.com/maps/api/staticmap?center=ifpb+av+primeiro+de+maio&zoom=16&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true" alt="Google Map of ifpb av primeiro de maio">
@@ -1119,7 +1119,7 @@ Output:
 ### Youtube
 
 - Reference:
-  - https://developers.google.com/youtube/subscribe/
+  - [Subscribe](https://developers.google.com/youtube/subscribe/)
 
 ```html
 <iframe 
@@ -1198,7 +1198,7 @@ Output:
 ### Twitter
 
 - Reference
-  - https://dev.twitter.com/web/overview
+  - [Twitter for Websites](https://dev.twitter.com/web/overview)
 
 <!-- 
   TODO
