@@ -632,15 +632,17 @@ ftp://ftp.gnu.org/pub/
 ### Raster vs Vector
 
 #### PNG (Raster)
+**50px**
 <img src="assets/ifpb-logo.png" alt="logo ifpb" width="50px">
 
-**20x**
+**2000px**
 <div style="width: 200px; height: 200px; background-image: url('assets/ifpb-logo.png'); background-size: 2000px;"></div>
 
 #### SVG (Vector)
+**50px**
 <img src="assets/ifpb-logo.svg" alt="logo ifpb" width="50px">
 
-**20x**
+**2000px**
 <div style="width: 200px; height: 200px; background-image: url('assets/ifpb-logo.svg'); background-size: 2000px;"></div>
 
 ### Data URI
@@ -705,20 +707,22 @@ Output:
 ```
 
 Output:
-<table>
-  <tr>
-    <th>Language</th>
-    <th>Creator</th>
-  </tr>
-  <tr>
-    <td>Python</td>
-    <td>Guido van Rossum</td>
-  </tr>
-  <tr>
-    <td>Javascript</td>
-    <td>Brendan Eich</td>
-  </tr>
-</table>
+<div>
+  <table>
+    <tr>
+      <th>Language</th>
+      <th>Creator</th>
+    </tr>
+    <tr>
+      <td>Python</td>
+      <td>Guido van Rossum</td>
+    </tr>
+    <tr>
+      <td>Javascript</td>
+      <td>Brendan Eich</td>
+    </tr>
+  </table>
+</div>
 
 #### `<thead>`, `<tbody>`, `<tfoot>`
 
@@ -739,29 +743,31 @@ Output:
       <td>Javascript</td>
       <td>Brendan Eich</td>
     </tr>
-  <tbody>
+  </tbody>
 </table>
 ```
 
 Output:
-<table>
-  <thead>
-    <tr>
-      <th>Language</th>
-      <th>Creator</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Python</td>
-      <td>Guido van Rossum</td>
-    </tr>
-    <tr>
-      <td>Javascript</td>
-      <td>Brendan Eich</td>
-    </tr>
-  <tbody>
-</table>
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>Language</th>
+        <th>Creator</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Python</td>
+        <td>Guido van Rossum</td>
+      </tr>
+      <tr>
+        <td>Javascript</td>
+        <td>Brendan Eich</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 #### `<thead>`, `<tbody>`, `<tfoot>`
 
@@ -789,36 +795,38 @@ Output:
     <tr>
       <td>B</td>
     </tr>
-  <tbody>
+  </tbody>
 </table>
 ```
 
 Output:
-<table>
-  <thead>
-    <tr>
-      <th>Language</th>
-      <th>Creator</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Python</td>
-      <td>Guido van Rossum</td>
-    </tr>
-    <tr>
-      <td>Javascript</td>
-      <td>Brendan Eich</td>
-    </tr>
-    <tr>
-      <td>C</td>
-      <td rowspan="2">Dennis Ritchie</td>
-    </tr>
-    <tr>
-      <td>B</td>
-    </tr>
-  <tbody>
-</table>
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>Language</th>
+        <th>Creator</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Python</td>
+        <td>Guido van Rossum</td>
+      </tr>
+      <tr>
+        <td>Javascript</td>
+        <td>Brendan Eich</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td rowspan="2">Dennis Ritchie</td>
+      </tr>
+      <tr>
+        <td>B</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## Forms
 
@@ -826,58 +834,81 @@ Output:
   - `<form>`
 - Form HTML: [html5doctor](http://html5doctor.com/html5-forms-introduction-and-new-attributes/), [W3C](https://www.w3.org/TR/html5/forms.html)
 
-<!-- TODO convert img2md -->
-![widgets](form/form_elements.png)
+### Components
 
 <table>
   <tr>
     <td>
       <input type="text" name="cpf">
     </td>
-    <td></td>
+    <td>
+
+```html
+  <input type="text" name="cpf">
+```
+
+    </td>
   </tr>
   <tr>
     <td>
-      <label for="cpf">CPF:</label><input type="text" name="cpf" id="cpf">
+      <label for="cpf">CPF:</label>
+      <input type="text" name="cpf" id="cpf">
     </td>
-    <td></td>
+    <td>
+
+```html
+<label for="cpf">CPF:</label>
+<input type="text" name="cpf" id="cpf">
+```    
+    </td>
   </tr>
   <tr>
     <td>
       <input type="text" name="cpf" required>*
     </td>
-    <td></td>
+    <td>
+      <input type="text" name="cpf" required>*
+    </td>
   </tr>
   <tr>
     <td>
       <input type="text" name="cpf" placeholder="000.000.000-00">
     </td>
-    <td></td>
+    <td>
   </tr>
   <tr>
     <td>
       <input type="text" name="cpf" value="000.000.000-00">
     </td>
-    <td></td>
+    <td>
+      <input type="text" name="cpf" value="000.000.000-00">
+    </td>
   </tr>
   <tr>
     <td>
       <input type="password" name="password">
     </td>
-    <td></td>
+    <td>
+      <input type="password" name="password">
+    </td>
   </tr>
   <tr>
     <td>
       <input type="radio" name="">
     </td>
-    <td></td>
+    <td>
+      <input type="radio" name="">
+    </td>
   </tr>
   <tr>
     <td>
       <input type="radio" name="sexo" value="masculino" id="masculino">
       <label for="masculino">masculino</label>
     </td>
-    <td></td>
+    <td>
+      <input type="radio" name="sexo" value="masculino" id="masculino">
+      <label for="masculino">masculino</label>
+    </td>
   </tr>
   <tr>
     <td>
@@ -886,58 +917,88 @@ Output:
       <input type="radio" name="sexo" value="feminino" id="feminino">
       <label for="feminino">feminino</label>
     </td>
-    <td></td>
+    <td>
+      <input type="radio" name="sexo" value="masculino" id="masculino" checked>
+      <label for="masculino">masculino</label>
+      <input type="radio" name="sexo" value="feminino" id="feminino">
+      <label for="feminino">feminino</label>
+    </td>
   </tr>
   <tr>
     <td>
       <input type="checkbox" name="">
     </td>
-    <td></td>
+    <td>
+      <input type="checkbox" name="">
+    </td>
   </tr>
   <tr>
     <td>
       <input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
       <label for="condicoes">Você concorda com os termos...</label>
     </td>
-    <td></td>
+    <td>
+      <input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
+      <label for="condicoes">Você concorda com os termos...</label>
+    </td>
   </tr>
   <tr>
     <td>
       <input type="range" name="number">
-      <input type="text" name="number-value" value="20">
+      <input type="text" name="number-value" value="20" size="2">
     </td>
-    <td></td>
+    <td>
+      <input type="range" name="number">
+      <input type="text" name="number-value" value="20" size="2">
+    </td>
   </tr>
   <tr>
+    <td>
+      <button>Create</button>
+    </td>
     <td>
       <input type="button" name="submit" value="Create">
       <input type="submit" name="submit" value="Create">
       <button>Create</button>
     </td>
-    <td></td>
   </tr>
   <tr>
     <td>
       <input type="date" name="date">
     </td>
-    <td></td>
+    <td>
+      <input type="date" name="date">
+    </td>
   </tr>
   <tr>
     <td>
       <select name="place">
+        <option value=""></option>
         <option value="PB">Paraíba</option>
         <option value="PE">Pernambuco</option>
       </select>
     </td>
-    <td></td>
+    <td>
+      <select name="place">
+        <option value=""></option>
+        <option value="PB">Paraíba</option>
+        <option value="PE">Pernambuco</option>
+      </select>
+    </td>
   </tr>
   <tr>
     <td>
       <textarea name="message">digite uma mensagem</textarea>
     </td>
-    <td></td>
+    <td>
+      <textarea name="message">digite uma mensagem</textarea>
+    </td>
   </tr>
 </table>
+
+### Example
+
+
 
 ## Web Resourses
 
