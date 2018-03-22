@@ -839,104 +839,131 @@ Output:
 
 ### Components
 
-<input type="text" name="cpf">
-
+#### single-line text field
 ```html
-  <input type="text" name="cpf">
+<input type="text" name="cpf">
 ```
 
-<label for="cpf">CPF:</label>
-<input type="text" name="cpf" id="cpf">
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  <input type="text" name="cpf">
+</div>
+
+#### label field
 
 ```html
 <label for="cpf">CPF:</label>
 <input type="text" name="cpf" id="cpf">
 ```    
 
-<input type="text" name="cpf" required>*
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  <label for="cpf">CPF:</label>
+  <input type="text" name="cpf" id="cpf">
+</div>
+
+#### required attribute
 
 ```html
 <input type="text" name="cpf" required>*
 ```
 
-<input type="text" name="cpf" placeholder="000.000.000-00">
+<form>
+  <input type="text" name="cpf" required>*
+<form>
+
+#### placeholder attribute
 
 ```html      
 <input type="text" name="cpf" placeholder="000.000.000-00">
 ```
 
-<input type="text" name="cpf" value="000.000.000-00">
+<input type="text" name="cpf" placeholder="000.000.000-00">
+
+#### value attribute
   
 ```html
 <input type="text" name="cpf" value="000.000.000-00">
 ```
   
-<input type="password" name="password">
+<input type="text" name="cpf" value="000.000.000-00">
+
+#### password field
 
 ```html
 <input type="password" name="password">
 ```
 
-<input type="radio" name="">
+<input type="password" name="password">
+
+#### radio button field
 
 ```html
-<input type="radio" name="field">
+<input type="radio" name="sexo" value="masculino" id="masculino">
+<label for="masculino">masculino</label>
 ```
 
 <input type="radio" name="sexo" value="masculino" id="masculino">
 <label for="masculino">masculino</label>
 
+#### radio group
+  
 ```html
-<input type="radio" name="sexo" value="masculino" id="masculino">
+<input type="radio" name="sexo" value="masculino" id="masculino" checked>
 <label for="masculino">masculino</label>
+<input type="radio" name="sexo" value="feminino" id="feminino">
+<label for="feminino">feminino</label>
 ```
 
 <input type="radio" name="sexo" value="masculino" id="masculino" checked>
 <label for="masculino">masculino</label>
 <input type="radio" name="sexo" value="feminino" id="feminino">
 <label for="feminino">feminino</label>
-  
-```html
-<input type="radio" name="sexo" value="masculino" id="masculino" checked>
-<label for="masculino">masculino</label>
-<input type="radio" name="sexo" value="feminino" id="feminino">
-<label for="feminino">feminino</label>
-```
-  
-<input type="checkbox" name="">
-  
-```html
-<input type="checkbox" name="">
-```
-  
-<input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
-<label for="condicoes">Você concorda com os termos...</label>
-  
+
+#### checkbox field
+    
 ```html
 <input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
 <label for="condicoes">Você concorda com os termos...</label>
 ```
   
-<input type="range" name="number">
-<input type="text" name="number-value" value="20" size="2">
+<input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
+<label for="condicoes">Você concorda com os termos...</label>
+
+#### range field
   
 ```html
 <input type="range" name="number">
 <input type="text" name="number-value" value="20" size="2">
 ```
-  
-<button>Create</button>
+
+<input type="range" name="number">
+<input type="text" name="number-value" value="20" size="2">
+
+#### button field
   
 ```html
 <input type="button" name="submit" value="Create">
 <input type="submit" name="submit" value="Create">
 <button>Create</button>
 ```
-  
-<input type="date" name="date">
+
+<button>Create</button>
+
+#### date field  
   
 ```html
 <input type="date" name="date">
+```
+
+<input type="date" name="date">
+
+#### combobox field
+  
+```html
+<select name="place">
+  <option value=""></option>
+  <option value="PB">Paraíba</option>
+  <option value="PE">Pernambuco</option>
+</select>
 ```
 
 <select name="place">
@@ -944,21 +971,14 @@ Output:
   <option value="PB">Paraíba</option>
   <option value="PE">Pernambuco</option>
 </select>
-  
-```html
-<select name="place">
-  <option value=""></option>
-  <option value="PB">Paraíba</option>
-  <option value="PE">Pernambuco</option>
-</select>
-```
-  
-<textarea name="message">digite uma mensagem</textarea>
+
+#### multi-line text field
 
 ```html
-<textarea name="message">digite uma mensagem</textarea>
+<textarea name="message" rows="3" cols="60">digite uma mensagem</textarea>
 ```
 
+<textarea name="message" rows="3" cols="60">digite uma mensagem</textarea>
 
 ### Example
 
