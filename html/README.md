@@ -541,7 +541,7 @@ ftp://ftp.gnu.org/pub/
 * Elements:
   * [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
 * Attributes
-  *[`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#Attributes): `src`, `alt`, `title`, `width`, `height`
+  * [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#Attributes): `src`, `alt`, `title`, `width`, `height`
 
 ### Examples
 
@@ -632,13 +632,13 @@ ftp://ftp.gnu.org/pub/
 ### Raster vs Vector
 
 #### PNG (Raster)
-<img src="assets/ifpb-logo.png" alt="logo ifpb" width="100px">
+<img src="assets/ifpb-logo.png" alt="logo ifpb" width="50px">
 
 **20x**
 <div style="width: 200px; height: 200px; background-image: url('assets/ifpb-logo.png'); background-size: 2000px;"></div>
 
 #### SVG (Vector)
-<img src="assets/ifpb-logo.svg" alt="logo ifpb" width="100px">
+<img src="assets/ifpb-logo.svg" alt="logo ifpb" width="50px">
 
 **20x**
 <div style="width: 200px; height: 200px; background-image: url('assets/ifpb-logo.svg'); background-size: 2000px;"></div>
@@ -667,6 +667,15 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAA3CAYAAABO8hkCAAAAAXNSR0IArs
 </a>
 ```
 
+```html
+<a href="http://ifpb.edu.br/">
+  <img src="ifpb.png" alt="logo IFPB">
+</a>
+```
+
+Output:
+[![logo ifpb](assets/ifpb.png)](http://ifpb.edu.br/)
+
 ## Table content
 
 ### `<table>`
@@ -677,6 +686,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAA3CAYAAABO8hkCAAAAAXNSR0IArs
   - `border`, `colspan`, `rowspan`
 
 #### `<table>`, `<tr>`, `<th>`, `<td>`
+
 ```html
 <table>
   <tr>
@@ -695,24 +705,23 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAA3CAYAAABO8hkCAAAAAXNSR0IArs
 ```
 
 Output:
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0;">
-  <table>
-    <tr>
-      <th>Language</th>
-      <th>Creator</th>
-    </tr>
-    <tr>
-      <td>Python</td>
-      <td>Guido van Rossum</td>
-    </tr>
-    <tr>
-      <td>Javascript</td>
-      <td>Brendan Eich</td>
-    </tr>
-  </table>
-</div>
+<table>
+  <tr>
+    <th>Language</th>
+    <th>Creator</th>
+  </tr>
+  <tr>
+    <td>Python</td>
+    <td>Guido van Rossum</td>
+  </tr>
+  <tr>
+    <td>Javascript</td>
+    <td>Brendan Eich</td>
+  </tr>
+</table>
 
 #### `<thead>`, `<tbody>`, `<tfoot>`
+
 ```html
 <table>
   <thead>
@@ -735,28 +744,27 @@ Output:
 ```
 
 Output:
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0;">
-  <table>
-    <thead>
-      <tr>
-        <th>Language</th>
-        <th>Creator</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Python</td>
-        <td>Guido van Rossum</td>
-      </tr>
-      <tr>
-        <td>Javascript</td>
-        <td>Brendan Eich</td>
-      </tr>
-    <tbody>
-  </table>
-</div>
+<table>
+  <thead>
+    <tr>
+      <th>Language</th>
+      <th>Creator</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Python</td>
+      <td>Guido van Rossum</td>
+    </tr>
+    <tr>
+      <td>Javascript</td>
+      <td>Brendan Eich</td>
+    </tr>
+  <tbody>
+</table>
 
 #### `<thead>`, `<tbody>`, `<tfoot>`
+
 ```html
 <table>
   <thead>
@@ -786,33 +794,31 @@ Output:
 ```
 
 Output:
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0;">
-  <table>
-    <thead>
-      <tr>
-        <th>Language</th>
-        <th>Creator</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Python</td>
-        <td>Guido van Rossum</td>
-      </tr>
-      <tr>
-        <td>Javascript</td>
-        <td>Brendan Eich</td>
-      </tr>
-      <tr>
-        <td>C</td>
-        <td rowspan="2">Dennis Ritchie</td>
-      </tr>
-      <tr>
-        <td>B</td>
-      </tr>
-    <tbody>
-  </table>
-</div>
+<table>
+  <thead>
+    <tr>
+      <th>Language</th>
+      <th>Creator</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Python</td>
+      <td>Guido van Rossum</td>
+    </tr>
+    <tr>
+      <td>Javascript</td>
+      <td>Brendan Eich</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td rowspan="2">Dennis Ritchie</td>
+    </tr>
+    <tr>
+      <td>B</td>
+    </tr>
+  <tbody>
+</table>
 
 ## Forms
 
@@ -822,6 +828,116 @@ Output:
 
 <!-- TODO convert img2md -->
 ![widgets](form/form_elements.png)
+
+<table>
+  <tr>
+    <td>
+      <input type="text" name="cpf">
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <label for="cpf">CPF:</label><input type="text" name="cpf" id="cpf">
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <input type="text" name="cpf" required>*
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <input type="text" name="cpf" placeholder="000.000.000-00">
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <input type="text" name="cpf" value="000.000.000-00">
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <input type="password" name="password">
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <input type="radio" name="">
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <input type="radio" name="sexo" value="masculino" id="masculino">
+      <label for="masculino">masculino</label>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <input type="radio" name="sexo" value="masculino" id="masculino" checked>
+      <label for="masculino">masculino</label>
+      <input type="radio" name="sexo" value="feminino" id="feminino">
+      <label for="feminino">feminino</label>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <input type="checkbox" name="">
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
+      <label for="condicoes">Você concorda com os termos...</label>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <input type="range" name="number">
+      <input type="text" name="number-value" value="20">
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <input type="button" name="submit" value="Create">
+      <input type="submit" name="submit" value="Create">
+      <button>Create</button>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <input type="date" name="date">
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <select name="place">
+        <option value="PB">Paraíba</option>
+        <option value="PE">Pernambuco</option>
+      </select>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <textarea name="message">digite uma mensagem</textarea>
+    </td>
+    <td></td>
+  </tr>
+</table>
 
 ## Web Resourses
 

@@ -1,4 +1,4 @@
 # Guides
 
 * [Markup Language](markup/)
-* [HTML](html/)
+* [Hyper Text Markup Language](html/)
