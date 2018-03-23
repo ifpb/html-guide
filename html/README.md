@@ -333,10 +333,6 @@ Output:
   </dl>
 </div>
 
-**Example**
-
-> [first-web-page](first-web-page/)
-
 ## Hyperlink
 
 * Elements:
@@ -344,7 +340,6 @@ Output:
 * Attributes:
   * [`<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#Attributes): `href`, `target`
 
-### Example
 
 ```
 hyperlink = content + url
@@ -353,6 +348,8 @@ content = text, image...
 
 <a href="url">content</a>
 ```
+
+### hyperlink structure
 
 ```html
 <a href="http://www.ifpb.edu.br/">ifpb</a>
