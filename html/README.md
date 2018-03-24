@@ -491,8 +491,8 @@ Output:
 **index.html**
 
 ```html
-<a href="/var/www/site/pages/index.html">home</a> :-1:
-<a href="file:///var/www/site/pages/index.html">home</a> :-1:
+<a href="/var/www/site/pages/index.html">home</a> 👎
+<a href="file:///var/www/site/pages/index.html">home</a> 👎
 <a href="http://site.com/pages/index.html">home</a> (external)
 <a href="http://site.com/pages/">home</a> (external)
 <a href="/pages/index.html">home</a> (internal)
@@ -502,8 +502,8 @@ Output:
 **contact.html**
 
 ```html
-<a href="/var/www/site/pages/contact.html">contact</a> :-1:
-<a href="file:///var/www/site/pages/contact.html">contact</a> :-1:
+<a href="/var/www/site/pages/contact.html">contact</a> 👎
+<a href="file:///var/www/site/pages/contact.html">contact</a> 👎
 <a href="http://site.com/pages/contact.html">contact</a> (external)
 <a href="/pages/contact.html">contact</a> (internal)
 ```
@@ -699,8 +699,8 @@ Output:
 <img src="image.png" alt="Image Description">
 <img src="./image.png" alt="Image Description">
 <img src="/pages/image.png" alt="Image Description"> (http)
-<img src="http://site.com/pages/image.png" alt="Image Description"> :-1:
-<img src="/var/www/site/pages/image.png" alt="Image Description"> :-1:
+<img src="http://site.com/pages/image.png" alt="Image Description"> 👎
+<img src="/var/www/site/pages/image.png" alt="Image Description"> 👎
 ```
 
 **home.html -> image.png**
@@ -719,8 +719,8 @@ Output:
 <img src="img/image.png" alt="Image Description">
 <img src="./img/image.png" alt="Image Description">
 <img src="/pages/img/image.png" alt="Image Description"> (http)
-<img src="http://site.com/pages/img/image.png" alt="Image Description"> :-1:
-<img src="/var/www/site/pages/img/image.png" alt="Image Description"> :-1:
+<img src="http://site.com/pages/img/image.png" alt="Image Description"> 👎
+<img src="/var/www/site/pages/img/image.png" alt="Image Description"> 👎
 ```
 
 **home.html -> image.png**
@@ -738,8 +738,8 @@ Output:
 ```html
 <img src="../img/image.png" alt="Image Description">
 <img src="/img/image.png" alt="Image Description"> (http)
-<img src="http://site.com/img/image.png" alt="Image Description"> :-1:
-<img src="/var/www/site/img/image.png" alt="Image Description"> :-1:
+<img src="http://site.com/img/image.png" alt="Image Description"> 👎
+<img src="/var/www/site/img/image.png" alt="Image Description"> 👎
 ```
 
 **home.html -> image.png**
