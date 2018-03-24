@@ -63,6 +63,13 @@
 </html>
 ```
 
+Output:
+
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
+  <h1 style="color: #606c71;">Olá, turma!</h1>
+  <p>Meu primeiro parágrafo</p>
+</div>
+
 ## HTML DOCTYPE
 
 * Reference:
@@ -71,6 +78,7 @@
   * [Quirks Mode and Standards Mode \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode)
   * [Obsolete and deprecated elements \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Obsolete_and_deprecated_elements)
   * [Dialog Element \| Can I Use](https://caniuse.com/#feat=dialog)
+  * [Valid DOCTYPES \| w3schools](https://www.w3schools.com/tags/ref_html_dtd.asp)
 
 ### HTML5
 ```html
@@ -119,15 +127,17 @@
 
 ## HTML Attributes
 
-* Reference: MDN([1](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) e [2](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)), [WP](https://docs.webplatform.org/wiki/html/attributes) e [W3C](https://www.w3.org/TR/2014/REC-html5-20141028/index.html)
-* [Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
-* [Meta attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#Attributes)
-* [HTML attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html#Attributes)
+* Reference: 
+  * HTML Attributes: [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes), [WP](https://docs.webplatform.org/wiki/html/attributes) e [W3C](https://www.w3.org/TR/2014/REC-html5-20141028/index.html)
+  * [Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
+  * [Meta attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#Attributes)
+  * [HTML attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html#Attributes)
+  * [IANA Language Subtag Registry](http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
 
 [`hello-attr/index.html`](hello-attr/index.html):
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
@@ -139,9 +149,16 @@
 </html>
 ```
 
+Output:
+
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
+  <h1 style="color: #606c71;">Olá, turma!</h1>
+  <p>Meu primeiro parágrafo</p>
+</div>
+
 ## HTML Entities
 
-* Reference: W3C ([1](https://dev.w3.org/html5/html-author/charref) e [2](https://www.w3.org/TR/html51/syntax.html#named-character-references))
+* Reference: W3C ([HTML 5 Entities](https://dev.w3.org/html5/html-author/charref) e [HTML 5.1 Entities](https://www.w3.org/TR/html51/syntax.html#named-character-references))
 
 | Char | Description | Unicode |Entity Name | Entity Code (Hex) |  Entity Code (Dec) |
 |-|-|-|-|-|-|
@@ -152,12 +169,42 @@
 | © | COPYRIGHT SIGN | U+000A9 | &amp;copy; &amp;COPY; | &amp;#x000A9; | &amp;#169; |
 | á | LATIN SMALL LETTER A WITH ACUTE | U+000E1 | &amp;aacute; | &amp;#x000E1; | &amp;#225;|
 
-**Example**
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
+  <p>Para criar um parágrafo em HTML é necessário usar a tag &lt;p>.</p>
+  <p>A entidade &amp;lt; no HTML cria o caracter <.</p>
+  <p>Para exibir o © no HTML usamos a entidade &amp;copy;.</p>
+</div>
+
+[`entity/index.html`](entity/problem.html):
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <p>Para criar um parágrafo em HTML é necessário usar a tag <p>.</p>
+  <p>A entidade &lt; no HTML cria o caracter <.</p>
+  <p>Para exibir o © no HTML usamos a entidade &copy;.</p>
+</body>
+</html>
+```
+
+Output:
+
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
+  <p>Para criar um parágrafo em HTML é necessário usar a tag <p>.</p>
+  <p>A entidade &lt; no HTML cria o caracter <.</p>
+  <p>Para exibir o © no HTML usamos a entidade &copy;.</p>
+</div>
 
 [`entity/index.html`](entity/index.html):
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -172,11 +219,20 @@
 </html>
 ```
 
+Output:
+
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
+  <p>Para criar um parágrafo em HTML é necessário usar a tag &lt;p>.</p>
+  <p>A entidade &amp;lt; no HTML cria o caracter <.</p>
+  <p>Para exibir o © no HTML usamos a entidade &amp;copy;.</p>
+</div>
+
 ## HTML Comments
 
+[`comment/index.html`](comment/index.html):
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
@@ -190,6 +246,15 @@
 </body>
 </html>
 ```
+
+Output:
+
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
+  <!-- Cabeçalho -->
+  <h1>Olá, turma!</h1>
+  <!-- Conteúdo -->
+  <p>Meu primeiro parágrafo</p>
+</div>
 
 ## [Document metadata](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Document_metadata)
 
@@ -282,17 +347,17 @@ Output:
 [`list`](list/):
 ```html
 <p>Conceitos do Front-End:</p>
-  <ul>
-    <li>HTML
-      <ul>
-        <li>Tag</li>
-        <li>Atributo</li>
-        <li>Entidade</li>
-        <li>Comentário</li>
-      </ul>
-    </li>
-    <li>CSS</li>
-  </ul>
+<ul>
+  <li>HTML
+    <ul>
+      <li>Tag</li>
+      <li>Atributo</li>
+      <li>Entidade</li>
+      <li>Comentário</li>
+    </ul>
+  </li>
+  <li>CSS</li>
+</ul>
 ```
 Output:
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
@@ -314,13 +379,13 @@ Output:
 
 [`list`](list/):
 ```html
-  <p>Tecnologias do Front-End:</p>
-  <dl>
-    <dt>HTML</dt>
-    <dd>Hyper Text Markup Language</dd>
-    <dt>CSS</dt>
-    <dd>Cascade Style Sheet</dd>
-  </dl>
+<p>Tecnologias do Front-End:</p>
+<dl>
+  <dt>HTML</dt>
+  <dd>Hyper Text Markup Language</dd>
+  <dt>CSS</dt>
+  <dd>Cascade Style Sheet</dd>
+</dl>
 ```
 Output:
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
@@ -340,12 +405,13 @@ Output:
 * Attributes:
   * [`<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#Attributes): `href`, `target`
 
-
 ```
 hyperlink = content + url
 
 content = text, image...
+```
 
+```html
 <a href="url">content</a>
 ```
 
@@ -356,9 +422,12 @@ content = text, image...
 ```
 
 Output:
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <a href="http://www.ifpb.edu.br/">ifpb</a>
 </div>
+
+> Github Server -> IFPB Server
 
 ### target blank
 
@@ -367,6 +436,7 @@ Output:
 ```
 
 Output:
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <a href="http://www.ifpb.edu.br/" target="_blank">ifpb</a>
 </div>
@@ -417,6 +487,7 @@ Output:
 
 ```html
 <a href="/var/www/site/pages/index.html">home</a>
+<a href="file:///var/www/site/pages/index.html">home</a>
 <a href="http://site.com/pages/index.html">home</a>
 <a href="http://site.com/pages/">home</a>
 <a href="/pages/index.html">home</a>
@@ -427,9 +498,12 @@ Output:
 
 ```html
 <a href="/var/www/site/pages/contact.html">contact</a>
+<a href="file:///var/www/site/pages/contact.html">contact</a>
 <a href="http://site.com/pages/contact.html">contact</a> 
 <a href="/pages/contact.html">contact</a>
 ```
+
+<!-- relative; absolute /, aboslute domain -->
 
 #### Example
 ```html
@@ -543,6 +617,7 @@ Output:
 ```
 
 Output:
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <a href="https://en.wikipedia.org/wiki/HTML#History">HTML History</a>
 </div>
@@ -563,6 +638,7 @@ Output:
 <p>…</p>
 ```
 
+[link-local](link-local/):
 ```html
 <h1>Sumário</h1>
 

@@ -82,7 +82,7 @@ Reference: [Sintax](https://www.w3.org/TR/html/)
 
 | estrutura | .md | .tex | .xml | .html |
 |-|-|-|-|-|
-| <h1>título</h1> | \# |  \section* | \<titulo> | \<h1> |
+| <span class="font-size: 2rem;">título</span> | \# |  \section* | \<titulo> | \<h1> |
 | parágrafo | quebra de linha | quebra de linha | \<titulo> | \<h1> |
 | <i>itálico</i> | \* | \textit | \<italico> | \<i> |
 | <b>negrito</b> | \** | \textbf | \<negrito> | \<b> |
