@@ -62,10 +62,10 @@ Reference: [Sintax](https://www.w3.org/TR/xml/)
 
 [`text.xml`](text.xml):
 ```xml
-<texto>
-  <titulo>Lorem ipsum dolor</titulo>
-  <paragrafo><italico>Lorem</italico> ipsum <negrito>dolor</negrito> sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</paragrafo>
-</texto>
+<text>
+  <title>Lorem ipsum dolor</title>
+  <paragraph><italic>Lorem</italic> ipsum <bold>dolor</bold> sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</paragraph>
+</text>
 ```
 
 ### HTML
@@ -82,10 +82,10 @@ Reference: [Sintax](https://www.w3.org/TR/html/)
 
 | estrutura | .md | .tex | .xml | .html |
 |-|-|-|-|-|
-| <span class="font-size: 2rem;">título</span> | \# |  \section* | \<titulo> | \<h1> |
-| parágrafo | quebra de linha | quebra de linha | \<titulo> | \<h1> |
-| <i>itálico</i> | \* | \textit | \<italico> | \<i> |
-| <b>negrito</b> | \** | \textbf | \<negrito> | \<b> |
+| <span style="font-size: 2rem; font-weight: bold;">Title</span> | \# |  \section* | \<title> | \<h1> |
+| paragraph | quebra de linha | quebra de linha | \<paragraph> | \<p> |
+| <i>Italic</i> | \* | \textit | \<italic> | \<i> |
+| <b>Bold</b> | \** | \textbf | \<bold> | \<b> |
 
 ## Markups
 
