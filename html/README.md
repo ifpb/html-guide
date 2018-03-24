@@ -169,6 +169,7 @@ Output:
 | © | COPYRIGHT SIGN | U+000A9 | &amp;copy; &amp;COPY; | &amp;#x000A9; | &amp;#169; |
 | á | LATIN SMALL LETTER A WITH ACUTE | U+000E1 | &amp;aacute; | &amp;#x000E1; | &amp;#225;|
 
+<br>
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
   <p>Para criar um parágrafo em HTML é necessário usar a tag &lt;p>.</p>
   <p>A entidade &amp;lt; no HTML cria o caracter <.</p>
@@ -196,7 +197,7 @@ Output:
 Output:
 
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
-  <p>Para criar um parágrafo em HTML é necessário usar a tag <p>.</p>
+  <p>Para criar um parágrafo em HTML é necessário usar a tag </p><p>.</p>
   <p>A entidade &lt; no HTML cria o caracter <.</p>
   <p>Para exibir o © no HTML usamos a entidade &copy;.</p>
 </div>
