@@ -282,7 +282,7 @@ Output:
 
 ### Ordered List
 
-[`list`](list/):
+[`list/index.html`](list/):
 ```html
 <p>Developer Roles:</p>
 <ol>
@@ -304,7 +304,7 @@ Output:
 
 ### Ordered List (type) 
 
-[`list`](list/):
+[`list/index.html`](list/):
 ```html
 <p>Developer Roles:</p>
 <ol type="a">
@@ -325,7 +325,7 @@ Output:
 
 ### Unordered List 
 
-[`list`](list/):
+[`list/index.html`](list/):
 ```html
 <p>Cursos da UAI:</p>
 <ul>
@@ -345,7 +345,7 @@ Output:
 
 ### Unordered List (nested) 
 
-[`list`](list/):
+[`list/index.html`](list/):
 ```html
 <p>Conceitos do Front-End:</p>
 <ul>
@@ -360,7 +360,9 @@ Output:
   <li>CSS</li>
 </ul>
 ```
+
 Output:
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
 <p>Conceitos do Front-End:</p>
   <ul>
@@ -378,7 +380,7 @@ Output:
 
 ### Definition List 
 
-[`list`](list/):
+[`list/index.html`](list/):
 ```html
 <p>Tecnologias do Front-End:</p>
 <dl>
@@ -388,7 +390,9 @@ Output:
   <dd>Cascade Style Sheet</dd>
 </dl>
 ```
+
 Output:
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
   <p>Tecnologias do Front-End:</p>
   <dl>
@@ -487,21 +491,21 @@ Output:
 **index.html**
 
 ```html
-<a href="/var/www/site/pages/index.html">home</a>
-<a href="file:///var/www/site/pages/index.html">home</a>
-<a href="http://site.com/pages/index.html">home</a>
-<a href="http://site.com/pages/">home</a>
-<a href="/pages/index.html">home</a>
-<a href="/pages/">home</a>
+<a href="/var/www/site/pages/index.html">home</a> :-1:
+<a href="file:///var/www/site/pages/index.html">home</a> :-1:
+<a href="http://site.com/pages/index.html">home</a> (external)
+<a href="http://site.com/pages/">home</a> (external)
+<a href="/pages/index.html">home</a> (internal)
+<a href="/pages/">home</a> (internal)
 ```
 
 **contact.html**
 
 ```html
-<a href="/var/www/site/pages/contact.html">contact</a>
-<a href="file:///var/www/site/pages/contact.html">contact</a>
-<a href="http://site.com/pages/contact.html">contact</a> 
-<a href="/pages/contact.html">contact</a>
+<a href="/var/www/site/pages/contact.html">contact</a> :-1:
+<a href="file:///var/www/site/pages/contact.html">contact</a> :-1:
+<a href="http://site.com/pages/contact.html">contact</a> (external)
+<a href="/pages/contact.html">contact</a> (internal)
 ```
 
 <!-- relative; absolute /, aboslute domain -->
@@ -639,7 +643,7 @@ Output:
 <p>…</p>
 ```
 
-[link-local](link-local/):
+[`link-local/index.html`](link-local/):
 ```html
 <h1>Sumário</h1>
 
@@ -694,9 +698,9 @@ Output:
 ```html
 <img src="image.png" alt="Image Description">
 <img src="./image.png" alt="Image Description">
-<img src="/pages/image.png" alt="Image Description">
-<img src="http://site.com/pages/image.png" alt="Image Description">
-<img src="/var/www/site/pages/image.png" alt="Image Description">
+<img src="/pages/image.png" alt="Image Description"> (http)
+<img src="http://site.com/pages/image.png" alt="Image Description"> :-1:
+<img src="/var/www/site/pages/image.png" alt="Image Description"> :-1:
 ```
 
 **home.html -> image.png**
@@ -714,8 +718,9 @@ Output:
 ```html
 <img src="img/image.png" alt="Image Description">
 <img src="./img/image.png" alt="Image Description">
-<img src="/pages/img/image.png" alt="Image Description">
-<img src="http://site.com/pages/img/image.png" alt="Image Description">
+<img src="/pages/img/image.png" alt="Image Description"> (http)
+<img src="http://site.com/pages/img/image.png" alt="Image Description"> :-1:
+<img src="/var/www/site/pages/img/image.png" alt="Image Description"> :-1:
 ```
 
 **home.html -> image.png**
@@ -732,8 +737,9 @@ Output:
 
 ```html
 <img src="../img/image.png" alt="Image Description">
-<img src="/img/image.png" alt="Image Description">
-<img src="http://site.com/img/image.png" alt="Image Description">
+<img src="/img/image.png" alt="Image Description"> (http)
+<img src="http://site.com/img/image.png" alt="Image Description"> :-1:
+<img src="/var/www/site/img/image.png" alt="Image Description"> :-1:
 ```
 
 **home.html -> image.png**
@@ -745,7 +751,7 @@ Output:
         └── site
             └── home.html
 
-(/var/www/site = http://site2.com/)
+(/var/www/site = http://othersite.com/)
 /
 └── var
     └── www
@@ -755,7 +761,7 @@ Output:
 ```
 
 ```html
-<img src="http://site2.com/img/image.png" alt="Image Description">
+<img src="http://othersite.com/img/image.png" alt="Image Description"> (http)
 ```
 
 ### Raster vs Vector
@@ -1290,9 +1296,27 @@ Output:
 
 ### Google Drive
 
+```html
+<iframe 
+    src="https://docs.google.com/forms/d/e/1FAIpQLSdARkzPZ2ng5vwSNuQqrtD2J8OjNyH-5YvxijusdMYMxgni7Q/viewform?embedded=true" 
+    width="600"
+    height="500"
+    frameborder="0"
+    marginheight="0"
+    marginwidth="0">Loading...
+  </iframe>
+```
+
+Output:
+
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdARkzPZ2ng5vwSNuQqrtD2J8OjNyH-5YvxijusdMYMxgni7Q/viewform?embedded=true" width="600" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</div>
+
 ### Facebook
 
-Reference: [Facebook - Social Plugins](https://developers.facebook.com/docs/plugins)
+* Reference: 
+  * [Facebook - Social Plugins](https://developers.facebook.com/docs/plugins)
 
 [Share Button](https://developers.facebook.com/docs/plugins/share-button)
 
