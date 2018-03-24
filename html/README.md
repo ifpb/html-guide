@@ -1298,19 +1298,20 @@ Output:
 
 ```html
 <iframe 
-    src="https://docs.google.com/forms/d/e/1FAIpQLSdARkzPZ2ng5vwSNuQqrtD2J8OjNyH-5YvxijusdMYMxgni7Q/viewform?embedded=true" 
-    width="600"
-    height="500"
-    frameborder="0"
-    marginheight="0"
-    marginwidth="0">Loading...
+  src="https://docs.google.com/forms/d/e/1FAIpQLSdARkzPZ2ng5vwSNuQqrtD2J8OjNyH-5YvxijusdMYMxgni7Q/viewform?embedded=true" 
+  width="600"
+  height="100"
+  frameborder="0"
+  marginheight="0"
+  marginwidth="0">
+    Loading...
   </iframe>
 ```
 
 Output:
 
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdARkzPZ2ng5vwSNuQqrtD2J8OjNyH-5YvxijusdMYMxgni7Q/viewform?embedded=true" width="600" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdARkzPZ2ng5vwSNuQqrtD2J8OjNyH-5YvxijusdMYMxgni7Q/viewform?embedded=true" width="600" height="100" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 </div>
 
 ### Facebook
