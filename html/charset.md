@@ -21,7 +21,8 @@ Reference:
 | � | REPLACEMENT CHARACTER | | U+FFFD | 239 191 189 | 0xEF 0xBF 0xBD | 11101111 10111111 10111101 |
 
 ## ISO-8859-1 
-| Char | Name | HTML Code |  Dec | Hex | Bin |
+
+| Char | Name | HTML Code | Dec | Hex | Bin |
 |-|-|-|-|-|-|
 | á | LATIN SMALL LETTER A WITH ACUTE | &amp;#225; | 225 | 0xE1 | 11100001 |
 | Ã | LATIN CAPITAL LETTER A WITH ACUTE | &amp;195; | 195 | 0xC3 | 11000011 |
