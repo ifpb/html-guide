@@ -64,9 +64,14 @@ Elements:
 
 ### Structure
 
-![element structure](https://mdn.mozillademos.org/files/9347/grumpy-cat-small.png)
-<br>
-Fonte: [MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+```
+openning              closing
+  tag      content      tag
+  ┌┴┐┌────────────────┐┌┴─┐
+  <p>Lorem ipsum dolor.</p>
+  └───────────────────────┘
+          Element
+```
 
 #### Nesting elements
 
@@ -170,9 +175,11 @@ Attributes:
 
 ### Structure
 
-![Structure](https://mdn.mozillademos.org/files/9345/grumpy-cat-attribute-small.png)
-<br>
-Fonte: [MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+```
+      attribute  
+    ┌─────┴────┐
+<p lang="pt-BR">Lorem ipsum dolor.</p>
+```
 
 #### Empty elements
 
