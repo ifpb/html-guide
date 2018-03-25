@@ -141,9 +141,9 @@ Reference:
 
 Reference: 
   * HTML Attributes: [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes), [WP](https://docs.webplatform.org/wiki/html/attributes) e [W3C](https://www.w3.org/TR/2014/REC-html5-20141028/index.html)
-  * [Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
-  * [Meta attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#Attributes)
-  * [HTML attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html#Attributes)
+  * [Global Attributes \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
+  * [Meta attributes \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#Attributes)
+  * [HTML attributes \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html#Attributes)
   * [Character Sets \| IANA](https://www.iana.org/assignments/character-sets/character-sets.xhtml)
   * [Language Subtag Registry \| IANA](http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
   * [Charset Guide](charset.md)
@@ -201,7 +201,7 @@ Reference:
   <p>Para exibir o © no HTML usamos a entidade &amp;copy;.</p>
 </div>
 
-[`entity/index.html`](entity/problem.html):
+[`entity/problem.html`](entity/problem.html):
 ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -291,7 +291,7 @@ Output:
 ## Head Elements
 
 Reference: 
-  * [Document metadata](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Document_metadata)
+  * [Document metadata \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Document_metadata)
   * [Guide to <head> elements (Elements, Meta, Link, Icons, Social, Browsers, App Links, Other Resources)](https://gethead.info)
   * [Optimize Tweets with Cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)
   * [Favicon](https://en.wikipedia.org/wiki/Favicon)
@@ -337,9 +337,11 @@ Attributes:
 ## Text elements
 
 References:
-  * [Content sectioning](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning)
-  * [Text content](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Text_content)
-  * [Inline text](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Inline_text_semantics)
+  * [HTML text fundamentals \| MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals)
+  * [Advanced text formatting \| MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting)
+  * [Content sectioning \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning)
+  * [Text content \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Text_content)
+  * [Inline text \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Inline_text_semantics)
 
 Elements:
   * [`<b>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b),
@@ -616,9 +618,31 @@ Output:
 <a href="/pages/contact.html">contact</a> (internal)
 ```
 
-<!-- relative; absolute /, aboslute domain -->
+**index.html ➡︎ contact.html**
+```
+(/var/www/site = http://site.com/)
+/
+└── var
+    └── www
+        └── site
+            └── pages
+                └── index.html
+
+(/var/www/site = http://othersite.com/)
+/
+└── var
+    └── www
+        └── site
+            └── pages
+                └── contact.html
+```
+
+```html
+<a href="http://othersite.com/pages/contact.html">contact</a> (http)
+```
 
 #### Example
+<!-- relative; absolute /, aboslute domain -->
 ```html
 <a href="http://www.ifpb.edu.br">IFPB</a>
 <a href="http://www.ifpb.edu.br/institucional/sobre-o-ifpb">Sobre o IFPB</a>
@@ -937,6 +961,9 @@ Output:
 
 ## Table Content
 
+Reference:
+  * [HTML table basics \| MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics)
+
 Elements: 
   * [`<table>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table),
   [`<thead>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead),
@@ -1097,6 +1124,7 @@ Output:
 ## Forms
 
 References:
+  * [HTML forms Guide \| MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms)
   * [HTML5 forms introduction and new attributes](http://html5doctor.com/html5-forms-introduction-and-new-attributes/)
   * [HTML Form \| W3C](https://www.w3.org/TR/html5/forms.html)
 
