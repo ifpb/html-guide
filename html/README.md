@@ -9,7 +9,7 @@
 * [HTML Entities](#html-entities)
 * [HTML Comment](#html-comment)
 * [Head Elements](#head-elements)
-* [Content sectioning, Text content, Inlinet Text](#content-sectioning-text-content-inline-text)
+* [Text Elements](#text-elements)
 * [Lists](#lists)
   * [Ordered List](#ordered-list)
   * [Ordered List (type) ](#ordered-list-type)
@@ -49,12 +49,17 @@
 Reference: 
   * [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), [WP](https://docs.webplatform.org/wiki/html/elements) e [W3C](https://www.w3.org/TR/2014/REC-html5-20141028/index.html)
   * [Title Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title): (Description, Attributes, Usage, Example, Specifications, Browser compatibility)
-  * Tabela comparativa: [w3school](http://www.w3schools.com/tags/ref_html_dtd.asp), [triin](http://www.triin.net/temp/html-elements.html)
+  * Comparison of elements: [w3school](http://www.w3schools.com/tags/ref_html_dtd.asp), [triin](http://www.triin.net/temp/html-elements.html)
   * [Obsolete and deprecated elements \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Obsolete_and_deprecated_elements)
   * [Dialog Element \| Can I Use](https://caniuse.com/#feat=dialog)
-
-* Elements:
-  * `<!DOCTYPE>`, `<html>`, `<head>`, `<title>`, `<body>`, `<h1>`, `<p>`
+Elements:
+  * `<!DOCTYPE>`,
+  [`<html>`,](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html) 
+  [`<head>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head),
+  [`<title>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title),
+  [`<body>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body),
+  [`<h1>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements),
+  [`<p>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
 
 [`hello/index.html`](hello/index.html):
 ```html
@@ -138,9 +143,9 @@ Reference:
   * [HTML attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html#Attributes)
   * [Character Sets \| IANA](https://www.iana.org/assignments/character-sets/character-sets.xhtml)
   * [Language Subtag Registry \| IANA](http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
-
-* Attributes:
-  * `lang`, `charset`
+Attributes:
+  * [global](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes): `lang`
+  * [`<meta>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta): `charset`
 
 [`hello-attr/index.html`](hello-attr/index.html):
 ```html
@@ -169,6 +174,8 @@ Output:
 Reference: 
   * [HTML 5 Entities \| W3C](https://dev.w3.org/html5/html-author/charref)
   * [HTML 5.1 Entities \| W3C](https://www.w3.org/TR/html51/syntax.html#named-character-references)
+
+### Entity Table
 
 | Char | Description | Unicode |Entity Name | Entity Code (Hex) |  Entity Code (Dec) |
 |-|-|-|-|-|-|
@@ -267,7 +274,7 @@ Output:
 
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
   <!-- Cabeçalho -->
-  <h1>Olá, turma!</h1>
+  <h1 style="color: #606c71;">Olá, turma!</h1>
   <!-- Conteúdo -->
   <p>Meu primeiro parágrafo</p>
 </div>
@@ -279,11 +286,17 @@ Reference:
   * [Guide to <head> elements (Elements, Meta, Link, Icons, Social, Browsers, App Links, Other Resources)](https://gethead.info)
   * [Optimize Tweets with Cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)
   * [Favicon](https://en.wikipedia.org/wiki/Favicon)
-
-* Elements:
-  * `<base>`, `<link>`, `<meta>`, `<noscript>`, `<style>`, `<script>`, `<title>`
-* Attributes:
-  * `charset`, `content`, `name`, `href`, `rel`, `sizes`
+Elements:
+  * [`<base>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base),
+  [`<link>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link),
+  [`<meta>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta),
+  [`<noscript>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript),
+  [`<style>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style),
+  [`<script>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script),
+  [`<title>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
+Attributes:
+  * [`<meta>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#Attributes): `charset`, `content`, `name`, 
+  * [`<link>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link#Attributes): `href`, `rel`, `sizes`
 
 ### Recommended Minimum
 
@@ -310,17 +323,51 @@ Reference:
 <link rel="icon" sizes="32x32" href="/path/to/icon.png">
 ```
 
+## Text elements
 
-## [Content sectioning](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning), [Text content](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Text_content), [Inline text](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Inline_text_semantics)
+References:
+  * [Content sectioning](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning)
+  * [Text content](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Text_content)
+  * [Inline text](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Inline_text_semantics)
+Elements:
+  * [`<b>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b),
+  [`<i>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i),
+  [`<h1>`-`<h6>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements),
+  [`<p>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
 
-* Elements:
-  * [`<p>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p), [`<h1>`-`<h6>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements), [`<b>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b), [`<i>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i)
+### Example
+
+[lorem-ipsum/index.html](lorem-ipsum/index.html)
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Lorem ipsum dolor</h1>
+  <p><i>Lorem</i> ipsum <b>dolor</b> sit amet consectetur, adipisicing elit. Magnam facere veniam eaque. Temporibus voluptate, quod odit tempora earum nobis. Vel, unde quia placeat laudantium natus maxime dolorem quasi nulla beatae!</p>
+</body>
+</html>
+```
+
+Output:
+
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
+  <h1 style="color: #606c71;">Lorem ipsum dolor</h1>
+  <p><i>Lorem</i> ipsum <b>dolor</b> sit amet consectetur, adipisicing elit. Magnam facere veniam eaque. Temporibus voluptate, quod odit tempora earum nobis. Vel, unde quia placeat laudantium natus maxime dolorem quasi nulla beatae!</p>
+</div>
 
 ## Lists
 
-* Elements:
-  * [`<ol>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol), [`<ul>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul), [`<dl>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)
-* Attributes:
+Elements:
+  * [`<ol>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol), 
+  [`<ul>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul), 
+  [`<dl>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)
+Attributes:
   * [`<ol>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol#Attributes): `type`
 
 ### Ordered List
@@ -336,6 +383,7 @@ Reference:
 ```
 
 Output:
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
   <p>Developer Roles:</p>
   <ol>
@@ -357,6 +405,7 @@ Output:
 </ol>
 ```
 Output:
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
   <p>Developer Roles:</p>
   <ol type="a">
@@ -378,6 +427,7 @@ Output:
 ```
 
 Output:
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
   <p>Cursos da UAI:</p>
   <ul>
@@ -448,18 +498,19 @@ Output:
 
 ## Hyperlink
 
-* Elements:
+Elements:
   * [`<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
-* Attributes:
+Attributes:
+  * [global](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes): `id`
   * [`<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#Attributes): `href`, `target`
+
+### hyperlink structure
 
 ```
 hyperlink = content + url
 
 content = text, image...
 ```
-
-### hyperlink structure
 
 ```html
 <a href="url">content</a>
@@ -475,7 +526,7 @@ Output:
   <a href="http://www.ifpb.edu.br/">ifpb</a>
 </div>
 
-> Server: Github <span style="color: black; font-size: 2.5rem;">➡</span> IFPB
+> Server: Github ➡ IFPB
 
 ### target blank
 
@@ -564,7 +615,7 @@ Output:
 
 ### Relative URL
 
-**index.html -> contact.html**
+**index.html ➡︎ contact.html**
 ```
 /
 └── var
@@ -580,7 +631,7 @@ Output:
 <a href="./contact.html">contact</a>
 ```
 
-**index.html -> contact.html**
+**index.html ➡︎ contact.html**
 ```
 /
 └── var
@@ -596,7 +647,7 @@ Output:
 <a href="./pages/contact.html">contact</a>
 ```
 
-**index.html -> contact.html**
+**index.html ➡︎ contact.html**
 ```
 /
 └── var
@@ -613,7 +664,7 @@ Output:
 <a href="./pages/html/contact.html">contact</a>
 ```
 
-**index.html -> contact.html**
+**index.html ➡︎ contact.html**
 ```
 /
 └── var
@@ -629,7 +680,7 @@ Output:
 <a href="../pages/contact.html">contact</a>
 ```
 
-**index.html -> contact.html**
+**index.html ➡︎ contact.html**
 ```
 /
 └── var
@@ -716,10 +767,12 @@ Output:
 
 ## Image and multimedia
 
-* Elements:
+Elements:
   * [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
-* Attributes
+Attributes
   * [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#Attributes): `src`, `alt`, `title`, `width`, `height`
+
+### Image Structure
 
 ```html
 <img src="url" alt="text alternative">
@@ -727,7 +780,7 @@ Output:
 
 ### Image URL
 
-**home.html -> image.png**
+**home.html ➡︎ image.png**
 ```
 /
 └── var
@@ -746,7 +799,7 @@ Output:
 <img src="/var/www/site/pages/image.png" alt="Image Description"> 👎
 ```
 
-**home.html -> image.png**
+**home.html ➡︎ image.png**
 ```
 /
 └── var
@@ -766,7 +819,7 @@ Output:
 <img src="/var/www/site/pages/img/image.png" alt="Image Description"> 👎
 ```
 
-**home.html -> image.png**
+**home.html ➡︎ image.png**
 ```
 /
 └── var
@@ -785,7 +838,7 @@ Output:
 <img src="/var/www/site/img/image.png" alt="Image Description"> 👎
 ```
 
-**home.html -> image.png**
+**home.html ➡︎ image.png**
 ```
 (/var/www/site = http://site.com/)
 /
@@ -840,6 +893,7 @@ Output:
 ```
 
 Output:
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <img src="assets/ifpb.png" alt="logo ifpb">
 </div>
@@ -859,22 +913,28 @@ Output:
 ```
 
 Output:
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <a href="http://ifpb.edu.br/">
     <img src="assets/ifpb.png" alt="logo IFPB">
   </a>
 </div>
 
-## Table content
+## Table Content
 
-### `<table>`
+Elements: 
+  * [`<table>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table),
+  [`<thead>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead),
+  [`<tbody>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody),
+  [`<tfoot>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot),
+  [`<tr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr),
+  [`<th>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th),
+  [`<td>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td)
+Attributes: 
+  * [`<table>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table#Attributes): `border`
+  * [`<td>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td#Attributes): `colspan`, `rowspan`
 
-- Elements: 
-  - `<table>`, `<thead>`, `<tbody>`, `<tfoot>`, `<tr>`, `<th>`, `<td>`
-- Attributes: 
-  - `border`, `colspan`, `rowspan`
-
-#### `<table>`, `<tr>`, `<th>`, `<td>`
+#### Basic Table
 
 ```html
 <table>
@@ -894,6 +954,7 @@ Output:
 ```
 
 Output:
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <table>
     <tr>
@@ -911,7 +972,7 @@ Output:
   </table>
 </div>
 
-#### `<thead>`, `<tbody>`, `<tfoot>`
+#### Table Section
 
 ```html
 <table>
@@ -935,6 +996,7 @@ Output:
 ```
 
 Output:
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <table>
     <thead>
@@ -956,7 +1018,7 @@ Output:
   </table>
 </div>
 
-#### `<thead>`, `<tbody>`, `<tfoot>`
+#### Table Span
 
 ```html
 <table>
@@ -987,6 +1049,7 @@ Output:
 ```
 
 Output:
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <table>
     <thead>
@@ -1017,12 +1080,17 @@ Output:
 
 ## Forms
 
-- Elements:
-  - `<form>`, `<input>`, `<label>`
-- Attributes
-  - `action`, `method`
-- [HTML5 forms introduction and new attributes](http://html5doctor.com/html5-forms-introduction-and-new-attributes/)
-- [HTML Form \| W3C](https://www.w3.org/TR/html5/forms.html)
+References:
+  * [HTML5 forms introduction and new attributes](http://html5doctor.com/html5-forms-introduction-and-new-attributes/)
+  * [HTML Form \| W3C](https://www.w3.org/TR/html5/forms.html)
+Elements:
+  * [`<form>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form),
+  [`<input>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input),
+  [`<label>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
+Attributes
+  * [`<form>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#Attributes): `action`, `method`
+  * [`<input>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes): `type`
+  * [`<label>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label#Attributes): `for`
 
 ### Components
 
@@ -1191,7 +1259,7 @@ Output:
   <textarea name="message" rows="3" cols="60">digite uma mensagem</textarea>
 </div>
 
-### Example
+### Simple Form
 
 ```html
 <main>
@@ -1236,6 +1304,7 @@ Output:
 ```
 
 Output:
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <main>
     <b style="font-size: 2em;">Contato</b>
@@ -1284,7 +1353,8 @@ Output:
 
 #### Static Map
 
-Reference: [Static Map Maker - Google Maps](https://staticmapmaker.com/google/)
+Reference: 
+  * [Static Map Maker - Google Maps](https://staticmapmaker.com/google/)
 
 ```html
 <img
@@ -1294,6 +1364,7 @@ Reference: [Static Map Maker - Google Maps](https://staticmapmaker.com/google/)
 ```
 
 Output:
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <img src="assets/ifpbstaticmap.png" alt="IFPB Address">
 </div>
@@ -1312,14 +1383,15 @@ Output:
 ```
 
 Output:
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1979.4582707790096!2d-34.87499884397443!3d-7.135649594847398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace810852ae4f1%3A0xaf5445223401f2bb!2sIFPB!5e0!3m2!1sen!2sbr!4v1521749915692" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 ### Youtube
 
-- Reference:
-  - [Subscribe](https://developers.google.com/youtube/subscribe/)
+Reference:
+  * [Subscribe](https://developers.google.com/youtube/subscribe/)
 
 ```html
 <iframe 
@@ -1333,6 +1405,7 @@ Output:
 ```
 
 Output:
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/guvsH5OFizE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
@@ -1377,12 +1450,12 @@ Reference:
 ```
 
 Output:
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.ifpb.edu.br%2F&layout=button_count&size=small&mobile_iframe=true&width=118&height=20&appId" width="118" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 </div>
 
 [Like Button](https://developers.facebook.com/docs/plugins/like-button)
-
 
 ```html
 <iframe 
@@ -1417,6 +1490,7 @@ Output:
 ```
 
 Output:
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fifpb.si%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 </div>
@@ -1424,9 +1498,9 @@ Output:
 <!-- TODO
 ### Twitter
 
-- Reference
+Reference
   - [Twitter for Websites](https://dev.twitter.com/web/overview) -->
 
 <!-- TODO
-  Robots.txt: [robots](http://www.robotstxt.org/robotstxt.html) e [robots do g1.com](http://g1.globo.com/robots.txt) -->
+Robots.txt: [robots](http://www.robotstxt.org/robotstxt.html) e [robots do g1.com](http://g1.globo.com/robots.txt) -->
 
