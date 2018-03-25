@@ -67,20 +67,20 @@ Elements:
 ```
 openning              closing
   tag      content      tag
-  ┌┴┐┌────────────────┐┌┴─┐
+  ┌┴┐┌────────────────┐┌─┴─┐
   <p>Lorem ipsum dolor.</p>
-  └───────────────────────┘
+  └────────────────────────┘
           Element
 ```
 
 #### Nesting elements
 
 ```html
-<p>My cat is <strong>very</strong> grumpy.</p>
+<p>Lorem <strong>ipsum</strong> dolor.</p>
 ```
 
 ```html
-<p>My cat is <strong>very grumpy.</p></strong> 👎
+<p>Lorem <strong>ipsum dolor.</p></strong> 👎
 ```
 
 ### Example
@@ -176,8 +176,8 @@ Attributes:
 ### Structure
 
 ```
-      attribute  
-    ┌─────┴────┐
+     attribute  
+   ┌─────┴────┐
 <p lang="pt-BR">Lorem ipsum dolor.</p>
 ```
 
@@ -289,6 +289,8 @@ Output:
 </div>
 
 ## HTML Comment
+
+### Structure
 
 ```html
 <!-- HTML Comment -->
@@ -1344,7 +1346,7 @@ Attributes
 
 ```html
 <main>
-  <h1>Contato</h1>
+  <h1 style="color: #606c71">Contato</h1>
   <form action="sucesso.html" method="post">
     <fieldset>
       <div>
@@ -1388,7 +1390,7 @@ Output:
 
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <main>
-    <b style="font-size: 2em;">Contato</b>
+    <h1 style="color: 2em;">Contato</h1>
     <form action="sucesso.html" method="post">
       <fieldset>
         <div>
