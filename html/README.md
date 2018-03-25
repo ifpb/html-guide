@@ -62,6 +62,8 @@ Elements:
   [`<h1>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements),
   [`<p>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
 
+### Example
+
 [`hello/index.html`](hello/index.html):
 ```html
 <!DOCTYPE html>
@@ -144,10 +146,13 @@ Reference:
   * [HTML attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html#Attributes)
   * [Character Sets \| IANA](https://www.iana.org/assignments/character-sets/character-sets.xhtml)
   * [Language Subtag Registry \| IANA](http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
+  * [Charset Guide](charset.md)
 
 Attributes:
   * [global](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes): `lang`
   * [`<meta>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta): `charset`
+
+### Example
 
 [`hello-attr/index.html`](hello-attr/index.html):
 ```html
@@ -253,6 +258,8 @@ Output:
 ```html
 <!-- HTML Comment -->
 ```
+
+### Example
 
 [`comment/index.html`](comment/index.html):
 ```html
