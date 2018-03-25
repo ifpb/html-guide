@@ -7,8 +7,8 @@
   * [XHTML 1.0](#xhmtl-10) (Strict, Transitional, Frameset)
 * [HTML Attributes](#html-attributes)
 * [HTML Entities](#html-entities)
-* [HTML Comments](#html-comments)
-* [Document metadata](#document-metadata)
+* [HTML Comment](#html-comment)
+* [Head Elements](#head-elements)
 * [Content sectioning, Text content, Inlinet Text](#content-sectioning-text-content-inline-text)
 * [Lists](#lists)
   * [Ordered List](#ordered-list)
@@ -42,12 +42,19 @@
 * Portais: [W3C](https://www.w3.org/standards/webdesign/htmlcss), [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML) e  [WP](https://docs.webplatform.org/wiki/html)
 * Guias: [MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML) e [WP](https://docs.webplatform.org/wiki/html/tutorials)
 * Versões: [Draft](https://w3c.github.io/html/), [5.1](https://www.w3.org/TR/html51/), [5](https://www.w3.org/TR/html5/), [4.01](https://www.w3.org/TR/html4/), [outras versões](https://www.w3.org/QA/2002/04/valid-dtd-list.html); HTML5 ([Features](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) e [Demo](http://html5demos.com/))
-* Cheat Sheet: [Websitesetup](https://websitesetup.org/html5-cheat-sheet/), [Frontend Cheat Sheets](https://github.com/logeshpaul/Frontend-Cheat-Sheets)
+* Cheat Sheet: [Websitesetup](https://websitesetup.org/html5-cheat-sheet/), [Frontend Cheat Sheets](https://github.com/logeshpaul/Frontend-Cheat-Sheets), [Hackr.io](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/frontend/html5.html)
 
 ## HTML Elements
 
-* Reference: [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), [WP](https://docs.webplatform.org/wiki/html/elements) e [W3C](https://www.w3.org/TR/2014/REC-html5-20141028/index.html) (tabela comparativa: [w3school](http://www.w3schools.com/tags/ref_html_dtd.asp), [triin](http://www.triin.net/temp/html-elements.html))
-* [Title Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title): (Description, Attributes, Usage, Example, Specifications, Browser compatibility)
+Reference: 
+  * [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), [WP](https://docs.webplatform.org/wiki/html/elements) e [W3C](https://www.w3.org/TR/2014/REC-html5-20141028/index.html)
+  * [Title Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title): (Description, Attributes, Usage, Example, Specifications, Browser compatibility)
+  * Tabela comparativa: [w3school](http://www.w3schools.com/tags/ref_html_dtd.asp), [triin](http://www.triin.net/temp/html-elements.html)
+  * [Obsolete and deprecated elements \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Obsolete_and_deprecated_elements)
+  * [Dialog Element \| Can I Use](https://caniuse.com/#feat=dialog)
+
+* Elements:
+  * `<!DOCTYPE>`, `<html>`, `<head>`, `<title>`, `<body>`, `<h1>`, `<p>`
 
 [`hello/index.html`](hello/index.html):
 ```html
@@ -72,13 +79,10 @@ Output:
 
 ## HTML DOCTYPE
 
-* Reference:
+Reference:
   * [Recommended Doctype Declarations to use in your Web document \| W3C](https://www.w3.org/QA/2002/04/valid-dtd-list.html)
   * [Doctypes and markup styles \| W3C](https://www.w3.org/wiki/Doctypes_and_markup_styles)
   * [Quirks Mode and Standards Mode \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode)
-  * [Obsolete and deprecated elements \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Obsolete_and_deprecated_elements)
-  * [Dialog Element \| Can I Use](https://caniuse.com/#feat=dialog)
-  * [Valid DOCTYPES \| w3schools](https://www.w3schools.com/tags/ref_html_dtd.asp)
 
 ### HTML5
 ```html
@@ -127,12 +131,16 @@ Output:
 
 ## HTML Attributes
 
-* Reference: 
+Reference: 
   * HTML Attributes: [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes), [WP](https://docs.webplatform.org/wiki/html/attributes) e [W3C](https://www.w3.org/TR/2014/REC-html5-20141028/index.html)
   * [Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
   * [Meta attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#Attributes)
   * [HTML attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html#Attributes)
-  * [IANA Language Subtag Registry](http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
+  * [Character Sets \| IANA](https://www.iana.org/assignments/character-sets/character-sets.xhtml)
+  * [Language Subtag Registry \| IANA](http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
+
+* Attributes:
+  * `lang`, `charset`
 
 [`hello-attr/index.html`](hello-attr/index.html):
 ```html
@@ -158,7 +166,9 @@ Output:
 
 ## HTML Entities
 
-* Reference: W3C ([HTML 5 Entities](https://dev.w3.org/html5/html-author/charref) e [HTML 5.1 Entities](https://www.w3.org/TR/html51/syntax.html#named-character-references))
+Reference: 
+  * [HTML 5 Entities \| W3C](https://dev.w3.org/html5/html-author/charref)
+  * [HTML 5.1 Entities \| W3C](https://www.w3.org/TR/html51/syntax.html#named-character-references)
 
 | Char | Description | Unicode |Entity Name | Entity Code (Hex) |  Entity Code (Dec) |
 |-|-|-|-|-|-|
@@ -169,7 +179,8 @@ Output:
 | © | COPYRIGHT SIGN | U+000A9 | &amp;copy; &amp;COPY; | &amp;#x000A9; | &amp;#169; |
 | á | LATIN SMALL LETTER A WITH ACUTE | U+000E1 | &amp;aacute; | &amp;#x000E1; | &amp;#225;|
 
-<br>
+### Example
+
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
   <p>Para criar um parágrafo em HTML é necessário usar a tag &lt;p>.</p>
   <p>A entidade &amp;lt; no HTML cria o caracter <.</p>
@@ -228,7 +239,11 @@ Output:
   <p>Para exibir o © no HTML usamos a entidade &amp;copy;.</p>
 </div>
 
-## HTML Comments
+## HTML Comment
+
+```html
+<!-- HTML Comment -->
+```
 
 [`comment/index.html`](comment/index.html):
 ```html
@@ -257,26 +272,54 @@ Output:
   <p>Meu primeiro parágrafo</p>
 </div>
 
-## [Document metadata](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Document_metadata)
+## Head Elements
 
-* [Guide to <head> elements (Elements, Meta, Link, Icons, Social, Browsers, App Links, Other Resources)](https://gethead.info)
-* [HTML5 Cheat sheet by Hackr.io](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/frontend/html5.html)
-* [Favicon](https://en.wikipedia.org/wiki/Favicon)
+Reference: 
+  * [Document metadata](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Document_metadata)
+  * [Guide to <head> elements (Elements, Meta, Link, Icons, Social, Browsers, App Links, Other Resources)](https://gethead.info)
+  * [Optimize Tweets with Cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)
+  * [Favicon](https://en.wikipedia.org/wiki/Favicon)
+
+* Elements:
+  * `<base>`, `<link>`, `<meta>`, `<noscript>`, `<style>`, `<script>`, `<title>`
+* Attributes:
+  * `charset`, `content`, `name`, `href`, `rel`, `sizes`
+
+### Recommended Minimum
+
+```html
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Page Title</title>
+```
+
+### Twitter Cards and Open Graph
+```html
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@account" />
+<meta name="twitter:creator" content="@account" />
+<meta property="og:url" content="http://site.com/" />
+<meta property="og:title" content="A Twitter for My Sister" />
+<meta property="og:description" content="In the early days, Twitter grew so quickly..." />
+<meta property="og:image" content="/path/to/image.png" />
+```
+
+### Favicon
+
+```html
+<link rel="icon" sizes="32x32" href="/path/to/icon.png">
+```
+
 
 ## [Content sectioning](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning), [Text content](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Text_content), [Inline text](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Inline_text_semantics)
 
 * Elements:
-  * [`<p>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
-  * [`<h1>`-`<h6>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
-  * [`<b>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b)
-  * [`<i>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i)
+  * [`<p>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p), [`<h1>`-`<h6>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements), [`<b>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b), [`<i>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i)
 
 ## Lists
 
 * Elements:
-  * [`<ol>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
-  * [`<ul>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
-  * [`<dl>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)
+  * [`<ol>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol), [`<ul>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul), [`<dl>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)
 * Attributes:
   * [`<ol>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol#Attributes): `type`
 
@@ -416,11 +459,11 @@ hyperlink = content + url
 content = text, image...
 ```
 
+### hyperlink structure
+
 ```html
 <a href="url">content</a>
 ```
-
-### hyperlink structure
 
 ```html
 <a href="http://www.ifpb.edu.br/">ifpb</a>
@@ -432,7 +475,7 @@ Output:
   <a href="http://www.ifpb.edu.br/">ifpb</a>
 </div>
 
-> Github Server -> IFPB Server
+> Server: Github <span style="color: black; font-size: 2.5rem;">➡</span> IFPB
 
 ### target blank
 
@@ -699,7 +742,7 @@ Output:
 <img src="image.png" alt="Image Description">
 <img src="./image.png" alt="Image Description">
 <img src="/pages/image.png" alt="Image Description"> (http)
-<img src="http://site.com/pages/image.png" alt="Image Description"> 👎
+<img src="http://site.com/pages/image.png" alt="Image Description"> (http)
 <img src="/var/www/site/pages/image.png" alt="Image Description"> 👎
 ```
 
@@ -719,7 +762,7 @@ Output:
 <img src="img/image.png" alt="Image Description">
 <img src="./img/image.png" alt="Image Description">
 <img src="/pages/img/image.png" alt="Image Description"> (http)
-<img src="http://site.com/pages/img/image.png" alt="Image Description"> 👎
+<img src="http://site.com/pages/img/image.png" alt="Image Description"> (http)
 <img src="/var/www/site/pages/img/image.png" alt="Image Description"> 👎
 ```
 
@@ -738,7 +781,7 @@ Output:
 ```html
 <img src="../img/image.png" alt="Image Description">
 <img src="/img/image.png" alt="Image Description"> (http)
-<img src="http://site.com/img/image.png" alt="Image Description"> 👎
+<img src="http://site.com/img/image.png" alt="Image Description"> (http)
 <img src="/var/www/site/img/image.png" alt="Image Description"> 👎
 ```
 
@@ -1316,7 +1359,7 @@ Output:
 
 ### Facebook
 
-* Reference: 
+Reference: 
   * [Facebook - Social Plugins](https://developers.facebook.com/docs/plugins)
 
 [Share Button](https://developers.facebook.com/docs/plugins/share-button)
