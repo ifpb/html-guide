@@ -62,6 +62,22 @@ Elements:
   [`<h1>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements),
   [`<p>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
 
+### Structure
+
+![element structure](https://mdn.mozillademos.org/files/9347/grumpy-cat-small.png)
+<br>
+Fonte: [MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+
+#### Nesting elements
+
+```html
+<p>My cat is <strong>very</strong> grumpy.</p>
+```
+
+```html
+<p>My cat is <strong>very grumpy.</p></strong> 👎
+```
+
 ### Example
 
 [`hello/index.html`](hello/index.html):
@@ -151,6 +167,18 @@ Reference:
 Attributes:
   * [global](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes): `lang`
   * [`<meta>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta): `charset`
+
+### Structure
+
+![Structure](https://mdn.mozillademos.org/files/9345/grumpy-cat-attribute-small.png)
+<br>
+Fonte: [MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+
+#### Empty elements
+
+```html
+<meta name="description" content="A description of the page">
+```
 
 ### Example
 
