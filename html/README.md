@@ -52,6 +52,7 @@ Reference:
   * Comparison of elements: [w3school](http://www.w3schools.com/tags/ref_html_dtd.asp), [triin](http://www.triin.net/temp/html-elements.html)
   * [Obsolete and deprecated elements \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Obsolete_and_deprecated_elements)
   * [Dialog Element \| Can I Use](https://caniuse.com/#feat=dialog)
+
 Elements:
   * `<!DOCTYPE>`,
   [`<html>`,](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html) 
@@ -143,6 +144,7 @@ Reference:
   * [HTML attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html#Attributes)
   * [Character Sets \| IANA](https://www.iana.org/assignments/character-sets/character-sets.xhtml)
   * [Language Subtag Registry \| IANA](http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
+
 Attributes:
   * [global](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes): `lang`
   * [`<meta>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta): `charset`
@@ -286,6 +288,7 @@ Reference:
   * [Guide to <head> elements (Elements, Meta, Link, Icons, Social, Browsers, App Links, Other Resources)](https://gethead.info)
   * [Optimize Tweets with Cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)
   * [Favicon](https://en.wikipedia.org/wiki/Favicon)
+
 Elements:
   * [`<base>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base),
   [`<link>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link),
@@ -294,6 +297,7 @@ Elements:
   [`<style>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style),
   [`<script>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script),
   [`<title>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
+
 Attributes:
   * [`<meta>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#Attributes): `charset`, `content`, `name`, 
   * [`<link>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link#Attributes): `href`, `rel`, `sizes`
@@ -329,6 +333,7 @@ References:
   * [Content sectioning](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning)
   * [Text content](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Text_content)
   * [Inline text](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Inline_text_semantics)
+
 Elements:
   * [`<b>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b),
   [`<i>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i),
@@ -367,6 +372,7 @@ Elements:
   * [`<ol>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol), 
   [`<ul>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul), 
   [`<dl>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)
+
 Attributes:
   * [`<ol>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol#Attributes): `type`
 
@@ -500,6 +506,7 @@ Output:
 
 Elements:
   * [`<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
+
 Attributes:
   * [global](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes): `id`
   * [`<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#Attributes): `href`, `target`
@@ -769,7 +776,8 @@ Output:
 
 Elements:
   * [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
-Attributes
+
+Attributes:
   * [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#Attributes): `src`, `alt`, `title`, `width`, `height`
 
 ### Image Structure
@@ -930,6 +938,7 @@ Elements:
   [`<tr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr),
   [`<th>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th),
   [`<td>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td)
+
 Attributes: 
   * [`<table>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table#Attributes): `border`
   * [`<td>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td#Attributes): `colspan`, `rowspan`
@@ -1083,10 +1092,12 @@ Output:
 References:
   * [HTML5 forms introduction and new attributes](http://html5doctor.com/html5-forms-introduction-and-new-attributes/)
   * [HTML Form \| W3C](https://www.w3.org/TR/html5/forms.html)
+
 Elements:
   * [`<form>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form),
   [`<input>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input),
   [`<label>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
+
 Attributes
   * [`<form>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#Attributes): `action`, `method`
   * [`<input>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes): `type`
