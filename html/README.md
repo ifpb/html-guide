@@ -37,6 +37,7 @@
   * [Facebook](#facebook)
 
 ## References
+---
 
 * HTML Awesome [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/diegocard/awesome-html5)
 * Portais: [W3C](https://www.w3.org/standards/webdesign/htmlcss), [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML) e  [WP](https://docs.webplatform.org/wiki/html)
@@ -45,6 +46,7 @@
 * Cheat Sheet: [Websitesetup](https://websitesetup.org/html5-cheat-sheet/), [Frontend Cheat Sheets](https://github.com/logeshpaul/Frontend-Cheat-Sheets), [Hackr.io](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/frontend/html5.html)
 
 ## HTML Elements
+---
 
 Reference: 
   * [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), [WP](https://docs.webplatform.org/wiki/html/elements) e [W3C](https://www.w3.org/TR/2014/REC-html5-20141028/index.html)
@@ -107,6 +109,7 @@ Output:
 </div>
 
 ## HTML DOCTYPE
+---
 
 Reference:
   * [Recommended Doctype Declarations to use in your Web document \| W3C](https://www.w3.org/QA/2002/04/valid-dtd-list.html)
@@ -159,6 +162,7 @@ Reference:
 ```
 
 ## HTML Attributes
+---
 
 Reference: 
   * HTML Attributes: [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes), [WP](https://docs.webplatform.org/wiki/html/attributes) e [W3C](https://www.w3.org/TR/2014/REC-html5-20141028/index.html)
@@ -212,6 +216,7 @@ Output:
 </div>
 
 ## HTML Entities
+---
 
 Reference: 
   * [HTML 5 Entities \| W3C](https://dev.w3.org/html5/html-author/charref)
@@ -289,6 +294,7 @@ Output:
 </div>
 
 ## HTML Comment
+---
 
 ### Structure
 
@@ -326,6 +332,7 @@ Output:
 </div>
 
 ## Head Elements
+---
 
 Reference: 
   * [Document metadata \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Document_metadata)
@@ -372,6 +379,7 @@ Attributes:
 ```
 
 ## Text elements
+---
 
 References:
   * [HTML text fundamentals \| MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals)
@@ -413,6 +421,7 @@ Output:
 </div>
 
 ## Lists
+---
 
 Elements:
   * [`<ol>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol), 
@@ -549,6 +558,7 @@ Output:
 </div>
 
 ## Hyperlink
+---
 
 Elements:
   * [`<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
@@ -841,6 +851,7 @@ Output:
 ```
 
 ## Image and multimedia
+---
 
 Elements:
   * [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
@@ -997,6 +1008,7 @@ Output:
 </div>
 
 ## Table Content
+---
 
 Reference:
   * [HTML table basics \| MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics)
@@ -1159,6 +1171,7 @@ Output:
 </div>
 
 ## Forms
+---
 
 References:
   * [HTML forms Guide \| MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms)
@@ -1431,6 +1444,7 @@ Output:
 </div>
 
 ## Web Resourses
+---
 
 ### Google Maps
 
