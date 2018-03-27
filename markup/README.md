@@ -1,5 +1,6 @@
 # Markup Language
 
+* [Definition](#definition)
 * [Problem](#problem)
   * [Markdown](#markdown)
   * [LaTeX](#latex)
@@ -11,6 +12,19 @@
   * [XUL Interface ](#xul-interface )
   * [MathML Expression ](#mathml-expression )
   * [KML Point ](#kml-point )
+* [Remember](#remember)
+
+
+
+## Definition
+
+Reference:
+* [Markup Language](https://en.wikipedia.org/wiki/Markup_language)
+* [List of Markups Languages](https://en.wikipedia.org/wiki/List_of_markup_languages)
+* [List of Document Markup Languages](https://en.wikipedia.org/wiki/List_of_document_markup_languages)
+* [List of XML Markup Languages](https://en.wikipedia.org/wiki/List_of_XML_markup_languages)
+
+> "A markup language is a system for annotating a document in a way that is syntactically distinguishable from the text" [Merriam-Webster Dictionary](https://en.wikipedia.org/wiki/Merriam-Webster)
 
 ## Problem
 
@@ -21,14 +35,18 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 ```
 
 Output:
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0;">
+
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
   <h1 style="color:#000">Lorem ipsum dolor</h1>
   <p><i>Lorem</i> ipsum <b>dolor</b> sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 
 ### Markdown
 
-Reference: [Sintax](https://daringfireball.net/projects/markdown/syntax), [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) e [Markdown Preview (vscode)](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview)
+Reference: 
+* [Sintax](https://daringfireball.net/projects/markdown/syntax)
+* [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Markdown Preview (vscode)](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview)
 
 [`text.md`](text.md):
 ```md
@@ -37,14 +55,23 @@ Reference: [Sintax](https://daringfireball.net/projects/markdown/syntax), [Cheat
 *Lorem* ipsum **dolor** sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ```
 
+Output:
+
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
+  <h1 style="color:#000">Lorem ipsum dolor</h1>
+  <p><em>Lorem</em> ipsum <strong>dolor</strong> sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+
 ### LaTeX
 
-Reference: [Sintax](https://daringfireball.net/projects/markdown/syntax), [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) e [Editor](https://www.overleaf.com/9385056rmtvknmdwshj)
+Reference: 
+* [Sintax](https://daringfireball.net/projects/markdown/syntax)
+* [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Editor](https://www.overleaf.com/9385056rmtvknmdwshj)
 
 [`text.tex`](text.tex):
 ```tex
-% https://www.overleaf.com/9385056rmtvknmdwshj
-
 \documentclass{article}
 
 \begin{document}
@@ -56,9 +83,13 @@ Reference: [Sintax](https://daringfireball.net/projects/markdown/syntax), [Cheat
 \end{document}
 ```
 
+Output: [overleaf](https://www.overleaf.com/read/jnwdkvgmrnzb)
+<!-- Read & Edit Link: https://www.overleaf.com/9385056rmtvknmdwshj -->
+
 ### XML
 
-Reference: [Sintax](https://www.w3.org/TR/xml/)
+Reference: 
+* [Sintax](https://www.w3.org/TR/xml/)
 
 [`text.xml`](text.xml):
 ```xml
@@ -70,13 +101,22 @@ Reference: [Sintax](https://www.w3.org/TR/xml/)
 
 ### HTML
 
-Reference: [Sintax](https://www.w3.org/TR/html/)
+Reference: 
+* [Sintax](https://www.w3.org/TR/html/)
 
 [`text.html`](text.html):
 ```html
 <h1>Lorem ipsum dolor</h1>
 <p><i>Lorem</i> ipsum <b>dolor</b> sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 ```
+
+Output:
+
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
+  <h1 style="color:#000">Lorem ipsum dolor</h1>
+  <p><i>Lorem</i> ipsum <b>dolor</b> sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
 
 ### Comparing
 
@@ -91,7 +131,8 @@ Reference: [Sintax](https://www.w3.org/TR/html/)
 
 ### SVG Image 
 
-Reference: [Syntax](https://www.w3.org/Graphics/SVG/)
+Reference: 
+* [Syntax](https://www.w3.org/Graphics/SVG/)
 
 [`imagem.svg`](imagem.svg):
 ```xml
@@ -118,7 +159,8 @@ Output:
 
 ### XUL Interface 
 
-Reference: [Syntax](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL)
+Reference: 
+* [Syntax](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL)
 
 [`interface.xul`](interface.xul):
 ```xml
@@ -142,7 +184,8 @@ Output:
 
 ### MathML Expression 
 
-Reference: [Syntax](https://www.w3.org/TR/MathML/)
+Reference: 
+* [Syntax](https://www.w3.org/TR/MathML/)
 
 [`mathml.xml`](mathml.xml):
 ```xml
@@ -171,10 +214,13 @@ Reference: [Syntax](https://www.w3.org/TR/MathML/)
 Output:
 
 ![mathml](mathml.png)
+<!-- axˆ2 + bx + c (LaTex) -->
 
 ### KML Point 
 
-Reference: [Syntax](http://www.opengeospatial.org/standards/kml/)
+Reference: 
+* [Syntax](http://www.opengeospatial.org/standards/kml/)
+* [KML Google](https://developers.google.com/kml/documentation/kmlreference)
 
 [`point.kml`](point.kml):
 ```xml
@@ -195,3 +241,16 @@ Reference: [Syntax](http://www.opengeospatial.org/standards/kml/)
 Output:
 
 ![point](point.png)
+
+<!-- ### VoiceXML
+https://en.wikipedia.org/wiki/VoiceXML -->
+
+<!-- X3D
+https://en.wikipedia.org/wiki/X3D -->
+
+## Remember
+
+* Markup Language helps define structures and data
+* Each Markup Language has specific markers (symbolic or nominal) defined by standards
+* ⬇︎ Marker = ⬇︎ File size
+* Markers require specific programs (manipulation and visualization)
