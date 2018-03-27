@@ -14,9 +14,8 @@
   * [KML Point ](#kml-point )
 * [Remember](#remember)
 
-
-
 ## Definition
+---
 
 Reference:
 * [Markup Language](https://en.wikipedia.org/wiki/Markup_language)
@@ -27,6 +26,7 @@ Reference:
 > "A markup language is a system for annotating a document in a way that is syntactically distinguishable from the text" [Merriam-Webster Dictionary](https://en.wikipedia.org/wiki/Merriam-Webster)
 
 ## Problem
+---
 
 Styling ([`text.txt`](text.txt)):
 ```txt
@@ -128,6 +128,7 @@ Output:
 | <b>Bold</b> | \** | \textbf | \<bold> | \<b> |
 
 ## Markups
+---
 
 ### SVG Image 
 
@@ -242,13 +243,16 @@ Output:
 
 ![point](point.png)
 
-<!-- ### VoiceXML
+<!-- TODO
+### VoiceXML
 https://en.wikipedia.org/wiki/VoiceXML -->
 
-<!-- X3D
+<!-- TODO 
+### X3D
 https://en.wikipedia.org/wiki/X3D -->
 
 ## Remember
+---
 
 * Markup Language helps define structures and data
 * Each Markup Language has specific markers (symbolic or nominal) defined by standards
