@@ -1013,6 +1013,24 @@ Output:
   </a>
 </div>
 
+### [`<figure>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
+
+```html
+<figure>
+  <img src="assets/ifpb.png" alt="logo IFPB">
+  <figcaption>IFPB Logo</figcaption>
+</figure>
+```
+
+Output:
+
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  <figure>
+    <img src="assets/ifpb.png" alt="logo IFPB">
+    <figcaption>IFPB Logo</figcaption>
+  </figure>
+</div>
+
 ## Table Content
 ---
 
