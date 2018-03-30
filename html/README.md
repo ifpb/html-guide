@@ -44,6 +44,7 @@
 * Guias: [MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML) e [WP](https://docs.webplatform.org/wiki/html/tutorials)
 * Versões: [Draft](https://w3c.github.io/html/), [5.1](https://www.w3.org/TR/html51/), [5](https://www.w3.org/TR/html5/), [4.01](https://www.w3.org/TR/html4/), [outras versões](https://www.w3.org/QA/2002/04/valid-dtd-list.html); HTML5 ([Features](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) e [Demo](http://html5demos.com/))
 * Cheat Sheet: [Websitesetup](https://websitesetup.org/html5-cheat-sheet/), [Frontend Cheat Sheets](https://github.com/logeshpaul/Frontend-Cheat-Sheets), [Hackr.io](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/frontend/html5.html)
+* [HTML Slide](../slides/html.pdf)
 
 <!-- TODO
 Linguagem de Marcação definidas por tags
