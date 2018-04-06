@@ -623,6 +623,8 @@ Output:
                 └── index.html
 ```
 
+<!-- TODO demo url absolute & relative -->
+
 **index.html**
 
 ```html
