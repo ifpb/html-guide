@@ -1,9 +1,12 @@
-# Forms
+# [Forms](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
+
+* [Components](#components)
+* [Simple Form](#simple-form)
 
 ## Components
 ---
 
-### single-line text field
+### [single-line text field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text)
 
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="text" name="cpf">
@@ -13,19 +16,7 @@
 <input type="text" name="cpf">
 ```
 
-### label field
-
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
-  <label for="cpf">CPF:</label>
-  <input type="text" name="cpf" id="cpf">
-</div>
-
-```html
-<label for="cpf">CPF:</label>
-<input type="text" name="cpf" id="cpf">
-```
-
-### required attribute
+### [required attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes)
 
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <form>
@@ -37,7 +28,7 @@
 <input type="text" name="cpf" required>*
 ```
 
-### placeholder attribute
+### [placeholder attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes)
 
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="text" name="cpf" placeholder="000.000.000-00">
@@ -47,7 +38,7 @@
 <input type="text" name="cpf" placeholder="000.000.000-00">
 ```
 
-### value attribute
+### [value attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes)
   
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="text" name="cpf" value="000.000.000-00">
@@ -57,7 +48,19 @@
 <input type="text" name="cpf" value="000.000.000-00">
 ```
 
-### password field
+### [label field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
+
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  <label for="cpf">CPF:</label>
+  <input type="text" name="cpf" id="cpf">
+</div>
+
+```html
+<label for="cpf">CPF:</label>
+<input type="text" name="cpf" id="cpf">
+```
+
+### [password field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password)
 
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="password" name="password">
@@ -67,10 +70,10 @@
 <input type="password" name="password">
 ```
 
-### radio button field
+### [radio button field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio)
 
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
-  <input type="radio" name="sexo" value="masculino" id="masculino">
+  <input type="radio" name="sexo_value" value="masculino" id="masculino">
   <label for="masculino">masculino</label>
 </div>
 
@@ -79,9 +82,10 @@
 <label for="masculino">masculino</label>
 ```
 
-### radio group
+### [radio group](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio)
   
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  Sexo:
   <input type="radio" name="sexo" value="masculino" id="masculino" checked>
   <label for="masculino">masculino</label>
   <input type="radio" name="sexo" value="feminino" id="feminino">
@@ -89,13 +93,14 @@
 </div>
 
 ```html
+Sexo:
 <input type="radio" name="sexo" value="masculino" id="masculino" checked>
 <label for="masculino">masculino</label>
 <input type="radio" name="sexo" value="feminino" id="feminino">
 <label for="feminino">feminino</label>
 ```
 
-### checkbox field
+### [checkbox field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
       
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
@@ -107,19 +112,45 @@
 <label for="condicoes">Você concorda com os termos...</label>
 ```
 
-### range field
+### [checkbox group](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
+
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  Linguagens:
+  <input type="checkbox" name="linguagens" value="javascript" id="javascript">
+  <label for="javascript">Javascript</label>
+  <input type="checkbox" name="linguagens" value="c" id="c">
+  <label for="c">C</label>
+  <input type="checkbox" name="linguagens" value="java" id="java">
+  <label for="java">Java</label>
+  <input type="checkbox" name="linguagens" value="python" id="python">
+  <label for="python">Python</label>
+</div>
+
+```html
+Linguagens:
+<input type="checkbox" name="linguagens" value="javascript" id="javascript">
+<label for="javascript">Javascript</label>
+<input type="checkbox" name="linguagens" value="c" id="c">
+<label for="c">C</label>
+<input type="checkbox" name="linguagens" value="java" id="java">
+<label for="java">Java</label>
+<input type="checkbox" name="linguagens" value="python" id="python">
+<label for="python">Python</label>
+```
+
+### [range field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range)
   
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
-  <input type="range" name="number">
+  <input type="range" name="number" min="1" max="100" step="1">
   <input type="text" name="number-value" value="20" size="2">
 </div>
 
 ```html
-<input type="range" name="number">
+<input type="range" name="number" min="1" max="100" step="1">
 <input type="text" name="number-value" value="20" size="2">
 ```
 
-### button field
+### [button field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button)
   
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <button>Create</button>
@@ -131,7 +162,7 @@
 <button>Create</button>
 ```
 
-### date field  
+### [date field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date)
   
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="date" name="date">
@@ -141,10 +172,31 @@
 <input type="date" name="date">
 ```
 
-### combobox field
+### [email field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email)
   
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
-  <select name="place">
+  <input type="email" name="email">
+</div>
+
+```html
+<input type="email" name="email">
+```
+
+### [file field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file)
+  
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  <input type="file" name="file">
+</div>
+
+```html
+<input type="file" name="file">
+```
+
+### [combobox field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
+  
+<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+  <label for="place">Estado: </label>
+  <select name="place" id="place">
     <option value=""></option>
     <option value="PB">Paraíba</option>
     <option value="PE">Pernambuco</option>
@@ -152,21 +204,24 @@
 </div>
 
 ```html
-<select name="place">
+<label for="place">Estado</label>
+<select name="place" id="place">
   <option value=""></option>
   <option value="PB">Paraíba</option>
   <option value="PE">Pernambuco</option>
 </select>
 ```
 
-### multi-line text field
+### [multi-line text field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
 
 <div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
-  <textarea name="message" rows="3" cols="60">digite uma mensagem</textarea>
+  <label for="message">Mensagem:</label><br>
+  <textarea name="message" id="message" rows="3" cols="60">digite uma mensagem</textarea>
 </div>
 
 ```html
-<textarea name="message" rows="3" cols="60">digite uma mensagem</textarea>
+<label for="message">Mensagem:</label><br>
+<textarea name="message" id="message" rows="3" cols="60">digite uma mensagem</textarea>
 ```
 
 ## Simple Form
