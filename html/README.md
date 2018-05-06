@@ -11,7 +11,7 @@
 * [Image and multimedia](image-multimedia/)
 * [Table content](table/)
 * [Forms](form/)
-* [Web Resourses](web-resourses/)
+* [Web Resourses](web-resourse/)
 
 ## References
 ---
