@@ -9,7 +9,7 @@
 ## Ordered List
 ---
 
-[`list/index.html`](list/):
+[`types/index.html`](types/):
 ```html
 <p>Developer Roles:</p>
 <ol>
@@ -33,7 +33,7 @@ Output:
 ## Ordered List (type) 
 ---
 
-[`list/index.html`](list/):
+[`types/index.html`](types/):
 ```html
 <p>Developer Roles:</p>
 <ol type="a">
@@ -56,7 +56,7 @@ Output:
 ## Unordered List 
 ---
 
-[`list/index.html`](list/):
+[`types/index.html`](types/):
 ```html
 <p>Cursos da UAI:</p>
 <ul>
@@ -78,7 +78,7 @@ Output:
 ## Unordered List (nested) 
 ---
 
-[`list/index.html`](list/):
+[`types/index.html`](types/):
 ```html
 <p>Conceitos do Front-End:</p>
 <ul>
@@ -114,7 +114,7 @@ Output:
 ## Definition List 
 ---
 
-[`list/index.html`](list/):
+[`types/index.html`](types/):
 ```html
 <p>Tecnologias do Front-End:</p>
 <dl>

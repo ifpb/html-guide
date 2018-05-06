@@ -3,15 +3,15 @@
 ## Content
 ---
 
-* [Syntax](syntax.md)
-* [Head Elements](head-element.md)
-* [Text Elements](text-element.md)
-* [Lists](list.md)
-* [Hyperlink](hyperlink.md)
-* [Image and multimedia](image-multimedia.md)
-* [Table content](table.md)
-* [Forms](form.md)
-* [Web Resourses](web-resourses.md)
+* [Syntax](syntax/)
+* [Head Elements](head-elements/)
+* [Text Elements](text-elements/)
+* [Lists](list/)
+* [Hyperlink](hyperlink/)
+* [Image and multimedia](image-multimedia/)
+* [Table content](table/)
+* [Forms](form/)
+* [Web Resourses](web-resourses/)
 
 ## References
 ---

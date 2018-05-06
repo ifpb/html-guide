@@ -227,7 +227,7 @@ Linguagens:
 ## Simple Form
 ---
 
-[form/index.html](form/index.html)
+[simple-form/index.html](simple-form/index.html)
 ```html
 <main>
   <h1 style="color: #606c71">Contato</h1>

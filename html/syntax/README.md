@@ -35,7 +35,7 @@ openning              closing
 
 ### Example
 
-[`hello/index.html`](hello/index.html):
+[`element/index.html`](element/index.html):
 ```html
 <!DOCTYPE html>
 <html>
@@ -79,51 +79,12 @@ Output:
 <!DOCTYPE html>
 ```
 
-### HTML 4.01
-
-#### Strict
-```html
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
-```
-
-#### Transitional
-```html
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-   "http://www.w3.org/TR/html4/loose.dtd">
-```
-
-#### Frameset
-```html
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
-   "http://www.w3.org/TR/html4/frameset.dtd">
-```
-
-### XHTML 1.0
-
-#### Strict
-```html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-```
-
-#### Transitional
-```html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-```
-
-#### Frameset
-```html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
-   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
-```
-
 ### References
 
 * [Recommended Doctype Declarations to use in your Web document \| W3C](https://www.w3.org/QA/2002/04/valid-dtd-list.html)
 * [Doctypes and markup styles \| W3C](https://www.w3.org/wiki/Doctypes_and_markup_styles)
 * [Quirks Mode and Standards Mode \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode)
+* [DOCTYPE Examples](doctype/)
 
 ## HTML Attributes
 ---
@@ -144,7 +105,7 @@ Output:
 
 ### Example
 
-[`hello-attr/index.html`](hello-attr/index.html):
+[`attribute/index.html`](attribute/index.html):
 ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -174,7 +135,7 @@ Output:
 * [HTML attributes \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html#Attributes)
 * [Character Sets \| IANA](https://www.iana.org/assignments/character-sets/character-sets.xhtml)
 * [Language Subtag Registry \| IANA](http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
-* [Charset Guide](charset.md)
+* [Charset Guide](charset/)
 * Attributes:
   * [global](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes): `lang`
   * [`<meta>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta): `charset`

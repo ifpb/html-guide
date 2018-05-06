@@ -3,6 +3,7 @@
 ## Basic Table
 ---
 
+[table-simple/index.html](table-simple/index.html):
 ```html
 <table>
   <tr>
@@ -42,6 +43,7 @@ Output:
 ## Table Section
 ---
 
+[table-section/index.html](table-section/index.html):
 ```html
 <table>
   <thead>
@@ -89,6 +91,7 @@ Output:
 ## Table Span
 ---
 
+[table-span/index.html](table-span/index.html):
 ```html
 <table>
   <thead>
