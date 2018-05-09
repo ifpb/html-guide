@@ -30,16 +30,16 @@ Output:
 <div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <table>
     <tr>
-      <th>Language</th>
-      <th>Creator</th>
+      <th style="border: none;">Language</th>
+      <th style="border: none;">Creator</th>
     </tr>
     <tr>
-      <td>Python</td>
-      <td>Guido van Rossum</td>
+      <td style="border: none;">Python</td>
+      <td style="border: none;">Guido van Rossum</td>
     </tr>
     <tr>
-      <td>Javascript</td>
-      <td>Brendan Eich</td>
+      <td style="border: none;">Javascript</td>
+      <td style="border: none;">Brendan Eich</td>
     </tr>
   </table>
 </div>
@@ -75,18 +75,18 @@ Output:
   <table>
     <thead>
       <tr>
-        <th>Language</th>
-        <th>Creator</th>
+        <th style="border: none;">Language</th>
+        <th style="border: none;">Creator</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Python</td>
-        <td>Guido van Rossum</td>
+        <td style="border: none;">Python</td>
+        <td style="border: none;">Guido van Rossum</td>
       </tr>
       <tr>
-        <td>Javascript</td>
-        <td>Brendan Eich</td>
+        <td style="border: none;">Javascript</td>
+        <td style="border: none;">Brendan Eich</td>
       </tr>
     </tbody>
   </table>
@@ -130,25 +130,25 @@ Output:
   <table>
     <thead>
       <tr>
-        <th>Language</th>
-        <th>Creator</th>
+        <th style="border: none;">Language</th>
+        <th style="border: none;">Creator</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Python</td>
-        <td>Guido van Rossum</td>
+        <td style="border: none;">Python</td>
+        <td style="border: none;">Guido van Rossum</td>
       </tr>
       <tr>
-        <td>Javascript</td>
-        <td>Brendan Eich</td>
+        <td style="border: none;">Javascript</td>
+        <td style="border: none;">Brendan Eich</td>
       </tr>
       <tr>
-        <td>C</td>
-        <td rowspan="2">Dennis Ritchie</td>
+        <td style="border: none;">C</td>
+        <td style="border: none;" rowspan="2">Dennis Ritchie</td>
       </tr>
       <tr>
-        <td>B</td>
+        <td style="border: none;">B</td>
       </tr>
     </tbody>
   </table>
