@@ -1,6 +1,10 @@
 # Table Content
 
-## Basic Table
+* [Table Simple](#table-simple)
+* [Table Section](#table-section)
+* [Table Span](#table-span)
+
+## Table Simple
 ---
 
 [table-simple/index.html](table-simple/index.html):
@@ -23,7 +27,7 @@
 
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <table>
     <tr>
       <th>Language</th>
@@ -67,7 +71,7 @@ Output:
 
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <table>
     <thead>
       <tr>
@@ -122,7 +126,7 @@ Output:
 
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <table>
     <thead>
       <tr>
