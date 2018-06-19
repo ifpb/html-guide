@@ -317,11 +317,16 @@ Output:
 ## References
 ---
 * [HTML forms Guide \| MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms)
+* [The native form widgets](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/The_native_form_widgets)
 * [HTML5 forms introduction and new attributes](http://html5doctor.com/html5-forms-introduction-and-new-attributes/)
 * [HTML Form \| W3C](https://www.w3.org/TR/html5/forms.html)
+* Mobile Inputs
+  * [mobile input types](http://mobileinputtypes.com/)
+  * [HTML5 for the mobile web – forms and input types](https://mobiforge.com/design-development/html5-mobile-web-forms-and-input-types)
 * Elements: [`<form>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form),
   [`<input>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input),
-  [`<label>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
+  [`<label>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label),
+  `<button>`, `<datalist>`, `<legend>`, `<label>`, `<select>`, `<optgroup>`, `<option>`, `<textarea>`, `<keygen>`, `<fieldset>`, `<output>`, `<progress>`
 * Attributes
   * [`<form>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#Attributes): `action`, `method`
   * [`<input>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes): `type`
