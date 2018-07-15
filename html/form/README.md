@@ -10,7 +10,7 @@
 
 <div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="text" name="cpf">
-</div><br>
+</div>
 
 ```html
 <input type="text" name="cpf">
@@ -22,7 +22,7 @@
   <form>
     <input type="text" name="cpf" required>*
   </form>
-</div><br>
+</div>
 
 ```html
 <input type="text" name="cpf" required>*
@@ -32,7 +32,7 @@
 
 <div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="text" name="cpf" placeholder="000.000.000-00">
-</div><br>
+</div>
 
 ```html      
 <input type="text" name="cpf" placeholder="000.000.000-00">
@@ -42,7 +42,7 @@
   
 <div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="text" name="cpf" value="000.000.000-00">
-</div><br>
+</div>
 
 ```html
 <input type="text" name="cpf" value="000.000.000-00">
@@ -53,7 +53,7 @@
 <div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <label for="cpf">CPF:</label>
   <input type="text" name="cpf" id="cpf">
-</div><br>
+</div>
 
 ```html
 <label for="cpf">CPF:</label>
@@ -64,7 +64,7 @@
 
 <div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="password" name="password">
-</div><br>
+</div>
 
 ```html
 <input type="password" name="password">
@@ -75,7 +75,7 @@
 <div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="radio" name="sex" value="male" id="male">
   <label for="male">masculino</label>
-</div><br>
+</div>
 
 ```html
 <input type="radio" name="sex" value="male" id="male">
@@ -90,7 +90,7 @@
   <label for="masculino">masculino</label>
   <input type="radio" name="sexo" value="feminino" id="feminino">
   <label for="feminino">feminino</label>
-</div><br>
+</div>
 
 ```html
 Sexo:
@@ -105,7 +105,7 @@ Sexo:
 <div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
   <label for="condicoes">Você concorda com os termos...</label>
-</div><br>
+</div>
 
 ```html
 <input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
@@ -124,7 +124,7 @@ Sexo:
   <label for="java">Java</label>
   <input type="checkbox" name="linguagens" value="python" id="python">
   <label for="python">Python</label>
-</div><br>
+</div>
 
 ```html
 Linguagens:
@@ -159,7 +159,7 @@ Linguagens:
   
 <div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <button>Create</button>
-</div><br>
+</div>
 
 ```html
 <input type="button" name="submit" value="Create">
@@ -171,7 +171,7 @@ Linguagens:
   
 <div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="date" name="date">
-</div><br>
+</div>
 
 ```html
 <input type="date" name="date">
@@ -181,7 +181,7 @@ Linguagens:
   
 <div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="email" name="email">
-</div><br>
+</div>
 
 ```html
 <input type="email" name="email">
@@ -191,7 +191,7 @@ Linguagens:
   
 <div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="file" name="file">
-</div><br>
+</div>
 
 ```html
 <input type="file" name="file">
@@ -206,7 +206,7 @@ Linguagens:
     <option value="PB">Paraíba</option>
     <option value="PE">Pernambuco</option>
   </select>
-</div><br>
+</div>
 
 ```html
 <label for="place">Estado</label>
@@ -222,7 +222,7 @@ Linguagens:
 <div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <label for="message">Mensagem:</label><br>
   <textarea name="message" id="message" rows="3" cols="60">digite uma mensagem</textarea>
-</div><br>
+</div>
 
 ```html
 <label for="message">Mensagem:</label><br>
