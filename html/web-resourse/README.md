@@ -156,7 +156,18 @@ Output:
 * [Facebook - Social Plugins](https://developers.facebook.com/docs/plugins)
 
 <!-- TODO
-### Twitter
+## Twitter
+---
 
 Reference
-  - [Twitter for Websites](https://dev.twitter.com/web/overview) -->
+  - [Twitter for Websites](https://dev.twitter.com/web/overview) 
+-->
+
+## References
+---
+
+- [Providers | Embedly](http://embed.ly/providers)
+- [Popular embeds on Medium – Medium Support](https://help.medium.com/hc/en-us/articles/217847128-Popular-embeds-on-Medium)
+- Web Resourses
+  - [Integrações com serviços Web | Desenvolvimento Web com HTML, CSS e JavaScript](https://www.caelum.com.br/apostila-html-css-javascript/integracoes-com-servicos-web/)
+  - [Apêndice - Mais integrações com serviços Web | Desenvolvimento Web com HTML, CSS e JavaScript](https://www.caelum.com.br/apostila-html-css-javascript/apendice-mais-integracoes-com-servicos-web/#para-saber-mais-google)

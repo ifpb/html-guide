@@ -8,9 +8,9 @@
 
 ### [single-line text field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text)
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="text" name="cpf">
-</div>
+</div><br>
 
 ```html
 <input type="text" name="cpf">
@@ -18,11 +18,11 @@
 
 ### [required attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes)
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <form>
     <input type="text" name="cpf" required>*
   </form>
-</div>
+</div><br>
 
 ```html
 <input type="text" name="cpf" required>*
@@ -30,9 +30,9 @@
 
 ### [placeholder attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes)
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="text" name="cpf" placeholder="000.000.000-00">
-</div>
+</div><br>
 
 ```html      
 <input type="text" name="cpf" placeholder="000.000.000-00">
@@ -40,9 +40,9 @@
 
 ### [value attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes)
   
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="text" name="cpf" value="000.000.000-00">
-</div>
+</div><br>
 
 ```html
 <input type="text" name="cpf" value="000.000.000-00">
@@ -50,10 +50,10 @@
 
 ### [label field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <label for="cpf">CPF:</label>
   <input type="text" name="cpf" id="cpf">
-</div>
+</div><br>
 
 ```html
 <label for="cpf">CPF:</label>
@@ -62,9 +62,9 @@
 
 ### [password field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password)
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="password" name="password">
-</div>
+</div><br>
 
 ```html
 <input type="password" name="password">
@@ -72,25 +72,25 @@
 
 ### [radio button field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio)
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
-  <input type="radio" name="sexo_value" value="masculino" id="masculino">
-  <label for="masculino">masculino</label>
-</div>
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
+  <input type="radio" name="sex" value="male" id="male">
+  <label for="male">masculino</label>
+</div><br>
 
 ```html
-<input type="radio" name="sexo" value="masculino" id="masculino">
-<label for="masculino">masculino</label>
+<input type="radio" name="sex" value="male" id="male">
+<label for="male">masculino</label>
 ```
 
 ### [radio group](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio)
   
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   Sexo:
   <input type="radio" name="sexo" value="masculino" id="masculino" checked>
   <label for="masculino">masculino</label>
   <input type="radio" name="sexo" value="feminino" id="feminino">
   <label for="feminino">feminino</label>
-</div>
+</div><br>
 
 ```html
 Sexo:
@@ -102,10 +102,10 @@ Sexo:
 
 ### [checkbox field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
       
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
   <label for="condicoes">Você concorda com os termos...</label>
-</div>
+</div><br>
 
 ```html
 <input type="checkbox" name="aceitaCondicoes" value="ok" id="condicoes">
@@ -114,7 +114,7 @@ Sexo:
 
 ### [checkbox group](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   Linguagens:
   <input type="checkbox" name="linguagens" value="javascript" id="javascript">
   <label for="javascript">Javascript</label>
@@ -124,7 +124,7 @@ Sexo:
   <label for="java">Java</label>
   <input type="checkbox" name="linguagens" value="python" id="python">
   <label for="python">Python</label>
-</div>
+</div><br>
 
 ```html
 Linguagens:
@@ -140,21 +140,26 @@ Linguagens:
 
 ### [range field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range)
   
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
-  <input type="range" name="number" min="1" max="100" step="1">
-  <input type="text" name="number-value" value="20" size="2">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
+  <input type="range" name="number" min="1" max="99" step="1">
+  <input type="text" name="number-value" value="20" size="3">
 </div>
+<script>
+    document.querySelector('input[type=range]').oninput = function() {
+      document.querySelector('input[name=number-value]').value = this.value
+    }
+  </script>
 
 ```html
 <input type="range" name="number" min="1" max="100" step="1">
-<input type="text" name="number-value" value="20" size="2">
+<input type="text" name="number-value" value="20" size="3">
 ```
 
 ### [button field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button)
   
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <button>Create</button>
-</div>
+</div><br>
 
 ```html
 <input type="button" name="submit" value="Create">
@@ -164,9 +169,9 @@ Linguagens:
 
 ### [date field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date)
   
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="date" name="date">
-</div>
+</div><br>
 
 ```html
 <input type="date" name="date">
@@ -174,9 +179,9 @@ Linguagens:
 
 ### [email field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email)
   
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="email" name="email">
-</div>
+</div><br>
 
 ```html
 <input type="email" name="email">
@@ -184,9 +189,9 @@ Linguagens:
 
 ### [file field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file)
   
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <input type="file" name="file">
-</div>
+</div><br>
 
 ```html
 <input type="file" name="file">
@@ -194,14 +199,14 @@ Linguagens:
 
 ### [combobox field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
   
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <label for="place">Estado: </label>
   <select name="place" id="place">
     <option value=""></option>
     <option value="PB">Paraíba</option>
     <option value="PE">Pernambuco</option>
   </select>
-</div>
+</div><br>
 
 ```html
 <label for="place">Estado</label>
@@ -214,10 +219,10 @@ Linguagens:
 
 ### [multi-line text field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <label for="message">Mensagem:</label><br>
   <textarea name="message" id="message" rows="3" cols="60">digite uma mensagem</textarea>
-</div>
+</div><br>
 
 ```html
 <label for="message">Mensagem:</label><br>
@@ -227,7 +232,7 @@ Linguagens:
 ## Simple Form
 ---
 
-[simple-form/index.html](simple-form/index.html)
+[simple-form/index.html](simple-form/index.html) (`<form>`)
 ```html
 <main>
   <h1 style="color: #606c71">Contato</h1>
@@ -272,7 +277,7 @@ Linguagens:
 
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <main>
     <h1 style="color: 2em;">Contato</h1>
     <form action="sucesso.html" method="post">
