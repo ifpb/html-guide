@@ -1,6 +1,23 @@
 # [Forms](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
 
 * [Components](#components)
+  * [single-line text field](#single-line-text-field)
+  * [required attribute](#required-attribute)
+  * [placeholder attribute](#placeholder-attribute)
+  * [value attribute](#value-attribute)
+  * [label field](#label-field)
+  * [password field](#password-field)
+  * [radio button field](#radio-button-field)
+  * [radio group](#radio-group)
+  * [checkbox field](#checkbox-field)
+  * [checkbox group](#checkbox-group)
+  * [range field](#range-field)
+  * [button field](#button-field)
+  * [date field](#date-field)
+  * [email field](#email-field)
+  * [file field](#file-field)
+  * [combobox field](#combobox-field)
+  * [multi-line text field](#multi-line-text-field)
 * [Simple Form](#simple-form)
 
 ## Components
