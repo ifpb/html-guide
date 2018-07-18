@@ -2,22 +2,24 @@
 
 * [Components](#components)
   * [single-line text field](#single-line-text-field)
-  * [required attribute](#required-attribute)
-  * [placeholder attribute](#placeholder-attribute)
-  * [value attribute](#value-attribute)
   * [label field](#label-field)
   * [password field](#password-field)
   * [radio button field](#radio-button-field)
   * [radio group](#radio-group)
   * [checkbox field](#checkbox-field)
   * [checkbox group](#checkbox-group)
-  * [range field](#range-field)
   * [button field](#button-field)
+  * [file field](#file-field)
+  * [range field](#range-field)
+  * [number field](#number-field)
   * [date field](#date-field)
   * [email field](#email-field)
-  * [file field](#file-field)
-  * [combobox field](#combobox-field)
   * [multi-line text field](#multi-line-text-field)
+  * [combobox field](#combobox-field)
+* Attributes
+  * [required attribute](#required-attribute)
+  * [placeholder attribute](#placeholder-attribute)
+  * [value attribute](#value-attribute)
 * [Simple Form](#simple-form)
 
 ## Components
@@ -155,6 +157,28 @@ Linguagens:
 <label for="python">Python</label>
 ```
 
+### [button field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button)
+  
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
+  <button>Create</button>
+</div>
+
+```html
+<input type="button" name="submit" value="Create">
+<input type="submit" name="submit" value="Create">
+<button>Create</button>
+```
+
+### [file field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file)
+  
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
+  <input type="file" name="file">
+</div>
+
+```html
+<input type="file" name="file">
+```
+
 ### [range field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range)
   
 <div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
@@ -172,22 +196,24 @@ Linguagens:
 <input type="text" name="number-value" value="20" size="3">
 ```
 
-### [button field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button)
+### [number field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number)
   
 <div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
-  <button>Create</button>
+  <form>
+    <input type="number" name="number">
+  </form>
 </div>
 
 ```html
-<input type="button" name="submit" value="Create">
-<input type="submit" name="submit" value="Create">
-<button>Create</button>
+<input type="number" name="number">
 ```
 
 ### [date field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date)
   
 <div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
-  <input type="date" name="date">
+  <form>
+    <input type="date" name="date">
+  </form>
 </div>
 
 ```html
@@ -197,21 +223,25 @@ Linguagens:
 ### [email field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email)
   
 <div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
-  <input type="email" name="email">
+  <form>  
+    <input type="email" name="email"> 
+  </form>
 </div>
 
 ```html
 <input type="email" name="email">
 ```
 
-### [file field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file)
-  
+### [multi-line text field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
+
 <div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
-  <input type="file" name="file">
+  <label for="message">Mensagem:</label><br>
+  <textarea name="message" id="message" rows="3" cols="60">digite uma mensagem</textarea>
 </div>
 
 ```html
-<input type="file" name="file">
+<label for="message">Mensagem:</label><br>
+<textarea name="message" id="message" rows="3" cols="60">digite uma mensagem</textarea>
 ```
 
 ### [combobox field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
@@ -226,24 +256,12 @@ Linguagens:
 </div>
 
 ```html
-<label for="place">Estado</label>
+<label for="place">Estado: </label>
 <select name="place" id="place">
   <option value=""></option>
   <option value="PB">Paraíba</option>
   <option value="PE">Pernambuco</option>
 </select>
-```
-
-### [multi-line text field](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
-
-<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
-  <label for="message">Mensagem:</label><br>
-  <textarea name="message" id="message" rows="3" cols="60">digite uma mensagem</textarea>
-</div>
-
-```html
-<label for="message">Mensagem:</label><br>
-<textarea name="message" id="message" rows="3" cols="60">digite uma mensagem</textarea>
 ```
 
 ## Simple Form
@@ -269,7 +287,7 @@ Linguagens:
       <div>
         <label for="curso">Curso</label>
         <select name="curso" id="curso">
-          <option value="" selected="">escolha um curso</option>
+          <option value="" selected>escolha um curso</option>
           <option value="TSI">Sistemas para Internet</option>
           <option value="RC">Redes de Computadores</option>
         </select>
@@ -313,7 +331,7 @@ Output:
         <div>
           <label for="curso">Curso</label>
           <select name="curso" id="curso">
-            <option value="" selected="">escolha um curso</option>
+            <option value="" selected>escolha um curso</option>
             <option value="TSI">Sistemas para Internet</option>
             <option value="RC">Redes de Computadores</option>
           </select>
