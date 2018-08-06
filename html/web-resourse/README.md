@@ -166,8 +166,8 @@ Reference
 ## References
 ---
 
-- [Providers | Embedly](http://embed.ly/providers)
+- [Providers \| Embedly](http://embed.ly/providers)
 - [Popular embeds on Medium – Medium Support](https://help.medium.com/hc/en-us/articles/217847128-Popular-embeds-on-Medium)
 - Web Resourses
-  - [Integrações com serviços Web | Desenvolvimento Web com HTML, CSS e JavaScript](https://www.caelum.com.br/apostila-html-css-javascript/integracoes-com-servicos-web/)
-  - [Apêndice - Mais integrações com serviços Web | Desenvolvimento Web com HTML, CSS e JavaScript](https://www.caelum.com.br/apostila-html-css-javascript/apendice-mais-integracoes-com-servicos-web/#para-saber-mais-google)
+  - [Integrações com serviços Web \| Desenvolvimento Web com HTML, CSS e JavaScript](https://www.caelum.com.br/apostila-html-css-javascript/integracoes-com-servicos-web/)
+  - [Apêndice - Mais integrações com serviços Web \| Desenvolvimento Web com HTML, CSS e JavaScript](https://www.caelum.com.br/apostila-html-css-javascript/apendice-mais-integracoes-com-servicos-web/#para-saber-mais-google)
