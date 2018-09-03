@@ -2,9 +2,6 @@
 
 * [HTML Elements](#html-elements)
 * [HTML DOCTYPE](#html-doctype)
-  * [HTML5](#html5)
-  * [HTML 4.01](#html-401)
-  * [XHTML 1.0](#xhmtl-10)
 * [HTML Attributes](#html-attributes)
 * [HTML Entities](#html-entities)
 * [HTML Comment](#html-comment)
@@ -37,7 +34,6 @@ openning              closing
 
 [`element/index.html`](element/index.html):
 ```html
-<!DOCTYPE html>
 <html>
 <head>
   <title>Bem-vindos</title>
@@ -75,8 +71,19 @@ Output:
 ---
 
 ### HTML5
+
+[`element/index.html`](element/index.html):
 ```html
 <!DOCTYPE html>
+<html>
+<head>
+  <title>Bem-vindos</title>
+</head>
+<body>
+  <h1>Olá, turma!</h1>
+  <p>Meu primeiro parágrafo</p>
+</body>
+</html>
 ```
 
 ### References
