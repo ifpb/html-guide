@@ -19,7 +19,7 @@
 
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <img src="assets/ifpbstaticmap.png" alt="IFPB Address">
 </div>
 
@@ -41,7 +41,7 @@ Reference:
 
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1979.4582707790096!2d-34.87499884397443!3d-7.135649594847398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace810852ae4f1%3A0xaf5445223401f2bb!2sIFPB!5e0!3m2!1sen!2sbr!4v1521749915692" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
@@ -61,7 +61,7 @@ Output:
 
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/guvsH5OFizE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
@@ -85,7 +85,7 @@ References:
 
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdARkzPZ2ng5vwSNuQqrtD2J8OjNyH-5YvxijusdMYMxgni7Q/viewform?embedded=true" width="600" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 </div>
 
@@ -108,7 +108,7 @@ Output:
 
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.ifpb.edu.br%2F&layout=button_count&size=small&mobile_iframe=true&width=118&height=20&appId" width="118" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 </div>
 
@@ -128,7 +128,7 @@ Output:
 
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.ifpb.edu.br%2F&width=450&layout=standard&action=like&size=large&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 </div>
 
@@ -148,7 +148,7 @@ Output:
 
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fifpb.si%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 </div>
 

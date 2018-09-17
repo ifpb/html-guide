@@ -21,7 +21,7 @@
 
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem;">
   <p>Developer Roles:</p>
   <ol>
     <li>Web developer</li>
@@ -44,7 +44,7 @@ Output:
 ```
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem;">
   <p>Developer Roles:</p>
   <ol type="a">
     <li>Web developer</li>
@@ -67,7 +67,7 @@ Output:
 
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem;">
   <p>Cursos da UAI:</p>
   <ul>
     <li>Redes de Computadores</li>
@@ -96,7 +96,7 @@ Output:
 
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem;">
 <p>Conceitos do Front-End:</p>
   <ul>
     <li>HTML
@@ -127,7 +127,7 @@ Output:
 
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem;">
   <p>Tecnologias do Front-End:</p>
   <dl>
     <dt>HTML</dt>

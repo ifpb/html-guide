@@ -22,7 +22,7 @@
 
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem;">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem;">
   <h1 style="color: #606c71;">Lorem ipsum dolor</h1>
   <p><i>Lorem</i> ipsum <b>dolor</b> sit amet consectetur, adipisicing elit. Magnam facere veniam eaque. Temporibus voluptate, quod odit tempora earum nobis. Vel, unde quia placeat laudantium natus maxime dolorem quasi nulla beatae!</p>
 </div>

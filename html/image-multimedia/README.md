@@ -99,19 +99,35 @@
 ## Raster vs Vector
 ---
 
-### PNG (Raster)
-**width: 150px**<br>
-<img src="assets/ifpb-logo.png" alt="logo ifpb" width="150px">
-
-**width: 2000px**
-<div style="width: 200px; height: 200px; background-image: url('assets/ifpb-logo.png'); background-size: 2000px;"></div>
-
-### SVG (Vector)
-**width: 150px**<br>
-<img src="assets/ifpb-logo.svg" alt="logo ifpb" width="150px">
-
-**width: 2000px**
-<div style="width: 200px; height: 200px; background-image: url('assets/ifpb-logo.svg'); background-size: 2000px;"></div>
+<table>
+  <tr>
+    <th></th>
+    <th>
+      <h3 id="png-raster">PNG (Raster)</h3>
+    </th>
+    <th>
+      <h3 id="svg-vector">SVG (Vector)</h3>
+    </th>
+  </tr>
+  <tr>
+    <th>width: 150px</th>
+    <td>
+      <img src="assets/ifpb-logo.png" alt="logo ifpb" width="150px">
+    </td>
+    <td>
+      <img src="assets/ifpb-logo.svg" alt="logo ifpb" width="150px">
+    </td>
+  </tr>
+  <tr>
+    <th>width: 2000px</th>
+    <td>
+      <div style="width: 200px; height: 200px; background-image: url('assets/ifpb-logo.png'); background-size: 2000px;"></div>
+    </td>
+    <td>
+      <div style="width: 200px; height: 200px; background-image: url('assets/ifpb-logo.svg'); background-size: 2000px;"></div>
+    </td>
+  </tr>
+</table>
 
 ## Data URI
 ---
