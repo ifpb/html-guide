@@ -132,7 +132,7 @@
 
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <img src="assets/ifpb.png" alt="logo ifpb">
 </div>
 
@@ -153,7 +153,7 @@ Output:
 
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <a href="http://ifpb.edu.br/">
     <img src="assets/ifpb.png" alt="logo IFPB">
   </a>
@@ -171,7 +171,7 @@ Output:
 
 Output:
 
-<div style="border-radius: 0.3rem;background-color: #f3f6fa;border: solid 1px #dce6f0; padding: 0.8rem">
+<div style="border-radius: 0.3rem; border: solid 1px #dce6f0; padding: 0.8rem">
   <figure>
     <img src="assets/ifpb.png" alt="logo IFPB">
     <figcaption>IFPB Logo</figcaption>
