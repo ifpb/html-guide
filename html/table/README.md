@@ -1,13 +1,17 @@
 # Table Content
 
-* [Table Simple](#table-simple)
-* [Table Section](#table-section)
-* [Table Span](#table-span)
+- [Table Content](#table-content)
+  - [Table Simple](#table-simple)
+  - [Table Section](#table-section)
+  - [Table Span](#table-span)
+  - [References](#references)
 
 ## Table Simple
+
 ---
 
 [table-simple/index.html](table-simple/index.html):
+
 ```html
 <table>
   <tr>
@@ -45,9 +49,11 @@ Output:
 </div>
 
 ## Table Section
+
 ---
 
 [table-section/index.html](table-section/index.html):
+
 ```html
 <table>
   <thead>
@@ -93,9 +99,11 @@ Output:
 </div>
 
 ## Table Span
+
 ---
 
 [table-span/index.html](table-span/index.html):
+
 ```html
 <table>
   <thead>
@@ -155,16 +163,17 @@ Output:
 </div>
 
 ## References
+
 ---
 
-* [HTML table basics \| MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics)
-* Elements: [`<table>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table),
+- [HTML table basics \| MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics)
+- Elements: [`<table>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table),
   [`<thead>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead),
   [`<tbody>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody),
   [`<tfoot>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot),
   [`<tr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr),
   [`<th>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th),
   [`<td>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td)
-* Attributes: 
-  * [`<table>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table#Attributes): `border`
-  * [`<td>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td#Attributes): `colspan`, `rowspan`
+- Attributes:
+  - [`<table>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table#Attributes): `border`
+  - [`<td>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td#Attributes): `colspan`, `rowspan`
